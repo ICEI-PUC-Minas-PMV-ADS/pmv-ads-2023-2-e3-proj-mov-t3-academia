@@ -79,15 +79,25 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| A aplicação deve permitir que o usuário monte sua própria ficha de treino. | ALTA | 
+|RF-002| A aplicação deve permitir que o usuário registre-se e faça login.   | ALTA |
+|RF-003| A aplicação deve permitir que o usuário compartilhe sua ficha de treino com outros usuários.   | ALTA |
+|RF-004| A aplicação deve permitir ao usuário ver as fichas montadas pelo seu personal trainer.   | ALTA |
+|RF-005| A aplicação deve mostrar um gif de como se executa os exercícios nas fichas de treino.   | MÉDIA |
+|RF-006| A aplicação deve ter a opção para o personal trainer criar uma ficha de treino para todos os alunos da academia.   | ALTA |
+|RF-007| A aplicação deve apresentar para o personal trainer a ficha de treino de todos seus alunos.   | ALTA |
+|RF-008| A aplicação deve apresentar para o personal trainer a opção de editar a ficha de treino de seus alunos.   | ALTA |
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| A aplicação interativa deve ser publicada em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku). | MÉDIA | 
+|RNF-002| A aplicação interativa deverá ser responsiva permitindo a visualização em um celular de forma adequada. |  ALTA | 
+|RNF-003| A aplicação interativa será programada em Javascript.|  ALTA | 
+|RNF-004| A aplicação interativa deve apresentar design moderno e fácil usabilidade. |  ALTA | 
+|RNF-005| A aplicação interativa deve ser compatível com os navegadores Chrome, Opera, Edge, Mozilla Firefox, Brave e Safari. |  ALTA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
