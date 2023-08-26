@@ -8,19 +8,35 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+| <img src="x" width="175" height="175"/> | Arnaldo Santos, 32 anos|
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------|
+| Ocupação:                                                       | Fisiculturista, Influencer Fitness                                                                                           |
+| Aplicativos:                                                    | Instagram, Youtube, Whatsapp, Tik-tok.                                                        |
+| Motivações:                                                     | Desejo de criar treinos diversos através dos meses de forma que permita superar platôs e evoluir seu corpo para competições futuras; Poder simplificar o trabalho de seu Coach e reduzir os custos de criar fichas novas.|       
+| Frustrações:                                                    | Dificuldade de periodizar seus treinos sem usar papel e caneta; Problemas para calcular a quantidade de carga total de seus treinos.|
+| Hobbies, História:                                              | Gosta de pesquisar sobre novas tecnologias e demandas do mercado fitness; Apaixonado pela musculação e competições de fisiculturismo.|
+<div align="center"><sup>Figura 3 - Persona 1</sup></div>
+<br/>
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+| <img src="x" width="175" height="175"/> | Carlos Gomes, 60 anos|
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------|
+| Ocupação:                                                       |  Analista de sistemas                                                                                                      |
+| Aplicativos:                                                    | Stack Overflow, Youtube, Whatsapp, Linked-in.                                                        |
+| Motivações:                                                     | Melhorar sua autoestima e saúde através de treino de força; Poder ver e entender seu treino mesmo sendo leigo na área de esportes.|       
+| Frustrações:                                                    | Não conseguir ter aderência dentro da academia por falta de estímulo ou por achar o treino tedioso; Dificuldade de entender os treinos escritos no papel.|
+| Hobbies, História:                                              | Política e economia; Música; Fascinado por computadores e Internet das coisas (IOT)          |
+<div align="center"><sup>Figura 4 - Persona 2</sup></div>
+<br/>
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+| <img src="x" width="175" height="175"/> | Fernanda Soares, 45 anos|
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------|
+| Ocupação:                                                       | Personal Trainer, Instrutora de musculação                                                                                           |
+| Aplicativos:                                                    | Instagram, Youtube, Whatsapp, Linked-in.                                                        |
+| Motivações:                                                     | Ajudar seus alunos e fazer o treino ser de fácil compreensão; Conseguir criar fichas de treino de forma eficiente, rápida e coesa.|       
+| Frustrações:                                                    | Não ter tempo o bastante no seu trabalho para guiar todos os alunos que necessitam de ajuda; Dificuldade em montar um treino coeso que ajude tanto o iniciante quanto o avançado.|
+| Hobbies, História:                                              | Musculação; Caminhada ao ar livre; Desenhista nas horas vagas.                   |
+<div align="center"><sup>Figura 5 - Persona 3</sup></div>
+<br/>
 
 ## Histórias de Usuários
 
