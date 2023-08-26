@@ -1,5 +1,3 @@
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/assets/103453380/097c133e-6ebe-479e-8a74-63d890fd08a9)# Especificações do Projeto
-
 Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
 
 ## Personas
