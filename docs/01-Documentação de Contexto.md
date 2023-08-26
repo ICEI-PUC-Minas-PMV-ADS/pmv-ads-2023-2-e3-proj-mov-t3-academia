@@ -24,18 +24,16 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
-
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+A implementação de um aplicativo mobile para academias oferece uma série de benefícios tanto para os clientes quanto para o próprio estabelecimento. A crescente adoção de smartphones e dispositivos móveis, juntamente com a demanda por soluções tecnológicas integradas, cria uma oportunidade estratégica para a academia se destacar no mercado e fornecer uma experiência mais eficiente e personalizada para seus membros. 
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Busca-se desenvolver um aplicativo mobile de fácil interação  para que todos os membros associados a academia possa utilizá lo,sendo que os principais beneficiados são os profissionais que trabalham na academia e também as pessoa que frequentam a academia não havendo distinção de faixa etária de idade, sexo entre outros.
+Adolescentes,Adultos, Jovens,Adultos de Meia-Idade,Adultos mais velhos , Aposentados e Idosos Ativos.
+
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
