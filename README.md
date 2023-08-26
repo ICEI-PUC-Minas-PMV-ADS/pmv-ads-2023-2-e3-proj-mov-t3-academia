@@ -1,10 +1,12 @@
-# TÍTULO DO PROJETO
+# FitTraining
 
 `Análise e Desenvolvimento de Sistemas`
 
 `Projeto: Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio`
 
 `3º Semestre`
+
+<div align="center"><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/blob/main/docs/img/White%20and%20black%20Fitness%20gym%20logo.png" width="400" height="400" =true></div>
 
 O projeto consiste no desenvolvimento de um aplicativo móvel dedicado a academias e centros de fitness. O objetivo principal do aplicativo é melhorar a experiência dos membros da academia, proporcionando acesso a recursos e funcionalidades que facilitem seu engajamento e progresso no treinamento físico.
 
