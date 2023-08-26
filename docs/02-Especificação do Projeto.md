@@ -1,4 +1,4 @@
-# Especificações do Projeto
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/assets/103453380/097c133e-6ebe-479e-8a74-63d890fd08a9)# Especificações do Projeto
 
 Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
 
@@ -40,8 +40,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Arnaldo Santos  | Montar suas próprias fichas de treino dos dias e os métodos de cada semana.| Para dinamizar e simplificar seu processo de treinamento e preparação para competições.|
+|Arnaldo Santos  | Ter um único aplicativo para montar fichas de treino elaboradas e compartilhar suas fichas com seus seguidores. | Expandir o número de alunos que podem querer tê-lo como coach e compartilhar suas fichas e métodos com interessados |
+|Carlos Gomes  | Facilitar o trabalho necessário para organizar fichas | Para facilitar sua adesão nos treinos|
+|Carlos Gomes  | Conseguir compreender facilmente quais exercícios deverá fazer e seus métodos de execução | Para não ter que procurar por muito tempo sempre que encontrar um exercício que não conheça e nem se lesionar nos treinos. |
+|Fernanda Soares | Criar fichas de treino para todos os alunos matriculados na academia. | Diminuir o trabalho necessário para gerenciar todas as fichas dos alunos.|
+|Fernanda Soares | Ter acesso fácil e prático para qualquer ficha de treino de qualquer aluno a qualquer momento. | Para que se possa fazer atualização e manutenção da rotina de treino sem muito trabalho. |
+
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
