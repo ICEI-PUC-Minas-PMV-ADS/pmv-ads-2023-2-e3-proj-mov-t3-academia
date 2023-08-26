@@ -8,7 +8,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-| <img src="x" width="175" height="175"/> | Arnaldo Santos, 32 anos|
+| <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/blob/main/docs/img/persona%201.png" width="300" height="175"/> | Arnaldo Santos, 32 anos|
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------|
 | Ocupação:                                                       | Fisiculturista, Influencer Fitness                                                                                           |
 | Aplicativos:                                                    | Instagram, Youtube, Whatsapp, Tik-tok.                                                        |
@@ -18,7 +18,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 <div align="center"><sup>Figura 3 - Persona 1</sup></div>
 <br/>
 
-| <img src="x" width="175" height="175"/> | Carlos Gomes, 60 anos|
+| <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/blob/main/docs/img/persona%202.png" width="270" height="175"/> | Carlos Gomes, 60 anos|
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------|
 | Ocupação:                                                       |  Analista de sistemas                                                                                                      |
 | Aplicativos:                                                    | Stack Overflow, Youtube, Whatsapp, Linked-in.                                                        |
@@ -28,7 +28,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 <div align="center"><sup>Figura 4 - Persona 2</sup></div>
 <br/>
 
-| <img src="x" width="175" height="175"/> | Fernanda Soares, 45 anos|
+| <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/blob/main/docs/img/persona%203.png" width="280" height="175"/> | Fernanda Soares, 45 anos|
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------|
 | Ocupação:                                                       | Personal Trainer, Instrutora de musculação                                                                                           |
 | Aplicativos:                                                    | Instagram, Youtube, Whatsapp, Linked-in.                                                        |
