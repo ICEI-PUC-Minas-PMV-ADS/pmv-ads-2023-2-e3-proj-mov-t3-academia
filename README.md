@@ -1,23 +1,25 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio`
 
-`SEMESTRE`
+`3º Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto consiste no desenvolvimento de um aplicativo móvel dedicado a academias e centros de fitness. O objetivo principal do aplicativo é melhorar a experiência dos membros da academia, proporcionando acesso a recursos e funcionalidades que facilitem seu engajamento e progresso no treinamento físico.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+<li><a href="https://github.com/jadirsousa"> Jadir de Sousa Gonçalves</a></li>
+<li><a href="https://github.com/jcjunior25"> Joanes Costa Junior</a></li>
+<li><a href="https://github.com/luisacoutinho06"> Luisa Silva Coutinho</a></li>
+<li><a href="https://github.com/DiegoRuTl"> Diego Ruas Toledo</a></li>
+<li><a href="https://github.com/RicadoFwww"> Ricardo Fonseca Pereira</a></li>
+<li><a href="https://github.com/ThiagoOliveiraQ">Thiago Henrique de Oliveira Souza</a></li>
 
 ## Orientador
 
-* Nome completo do professor 1
+Mateus Curcino de Lima
 
 ## Instruções de utilização
 
