@@ -31,6 +31,7 @@
 |Passos 	| 1) Acessar a aplicação; <br> 2) Visualizar a página e clicar em "Adicionar Adicionar ficha de treino"; <br> 3) Preencher os campos obrigatórios (Exercício, Repetições e Séries); <br> 4) Clicar em "Adicionar Ficha de treino"; <br> 5) Clicar em "Confirmar"; 6) Clicar no botão de compartilhar a ficha de treino.|
 |Critério de Êxito | - A ficha de treino deve ser compartilhada.  |
 |  	|  	|
+
 <br>
  
 |**Caso de Teste** 	| **CT-04 – Ver ficha de treino montada pelo personal trainer** 	|
@@ -40,6 +41,7 @@
 |Passos 	| 1) Acessar a aplicação; <br> 2) Visualizar a página e clicar em "Minha fihca de treino".|
 |Critério de Êxito | - A ficha de treino deve ser vista pelo usuário.  |
 |  	|  	|
+
 <br>
 
 |**Caso de Teste** 	| **CT-05 – Gif dos exercícios** 	|
@@ -48,9 +50,9 @@
 |Objetivo do Teste 	| Verificar se o usuário consegue ver os gifs que representam a execução do exercício|
 |Passos 	| 1) Acessar a aplicação; <br> 2) Visualizar a página e clicar em "MInha ficha de treino"; <br> 3) Clicar nos exercícios.|
 |Critério de Êxito | - Deve ser exibido o gif de cada exercício |
-|  	|  	|<br>
+|  	|  	|
 
-
+<br>
 
 | Caso de Teste       | CT-06 – Opção de criar ficha de treino para todos alunos da academia      |
 |---------------------|-----------------------------------------------------------------------------------|
@@ -67,8 +69,9 @@
 |Objetivo do Teste 	| Verificar se o usuário personal trainer consegue ver a ficha de treino de seus alunos.|
 |Passos 	| 1) Acessar a aplicação; <br> 2) Visualizar a página e clicar em "Ver ficha de treino dos alunos".  |
 |Critério de Êxito | - A aplicação deve mostrar a ficha de treino de todos os alunos. |
-|  	|  	|<br>
+|  	|  	|
 
+<br>
 
 |**Caso de Teste** 	| **CT-08 – Editar ficha de treino dos alunos** 	|
 |:---:	|:---:	|
