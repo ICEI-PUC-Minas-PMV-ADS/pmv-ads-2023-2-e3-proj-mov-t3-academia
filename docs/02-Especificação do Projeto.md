@@ -51,12 +51,18 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Análise da Situação Atual
 
-Em uma academia, existem funções repetidas diariamente pelos profissionais, como o cadastro de novos alunos, o controle de frequência, a criação e atualização de treinose etc...
+Em uma academia, existem funções repetidas diariamente pelos profissionais, como o cadastro de novos alunos, o controle de frequência, a criação e atualização de treinos e etc...
 Geralmente essas tarefas são realizadas por meio de planilhas e de formulários de cadastro. Contudo, isso pode complicar e sobrecarregar a gestão de uma academia como um todo.
 
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+Neste contexto é fundamental pesquisar as principais tendências do universo fitness no mundo e implementar melhorias. 
+Os processos a serem automatizados serão:
+No controle de pagamentos gerando boletos e cobranças no cartão de crédito.
+No controle de alunos realizando cadastros e verificando a frequência.
+Na elaboração de treinos,a execução de exercícios e níveis de desmpenho.
+De forma simples a automação desses processos permitem que essas funções sejam executadas digitalmente com facilidade entre os profissionais e clientes. 
+
 
 ### Processo 1 – NOME DO PROCESSO
 
