@@ -62,7 +62,9 @@ No controle de pagamentos gerando boletos e cobranças no cartão de crédito.
 No controle de alunos realizando cadastros e verificando a frequência.
 O aluno poderá ver as informações referentes ao plano e escolher o mais adequado e realizar a matrícula de forma on line.
 Estando matriculado o aluno será encaminhado para preencher seus objetivos e solicitar um agendamento para a avaliação.
-Na elaboração de treinos,a execução de exercícios e níveis de desmpenho.
+Na elaboração de treinos,o instrutor terá acesso aos dados do aluno bem como seu bio tipo e peso para montar sua ficha de treino que ficará já a 
+disposição no aplicativo.
+Ajudará na execução de exercícios e verificar os níveis de desmpenho.
 De forma simples a automação desses processos permitem que essas funções sejam executadas digitalmente com facilidade entre os profissionais e clientes. 
 
 
