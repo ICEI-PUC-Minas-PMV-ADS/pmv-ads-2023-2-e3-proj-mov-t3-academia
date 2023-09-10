@@ -51,7 +51,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+Em uma academia, existem funções repetidas diariamente pelos profissionais, como o cadastro de novos alunos, o controle de frequência, a criação e atualização de treinose etc...
+Geralmente essas tarefas são realizadas por meio de planilhas e de formulários de cadastro. Contudo, isso pode complicar e sobrecarregar a gestão de uma academia como um todo.
 
 ### Descrição Geral da Proposta
 
