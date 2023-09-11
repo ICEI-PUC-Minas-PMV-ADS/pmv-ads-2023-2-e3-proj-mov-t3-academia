@@ -64,7 +64,7 @@ O aluno poderá ver as informações referentes ao plano e escolher o mais adequ
 Estando matriculado o aluno será encaminhado para preencher seus objetivos e solicitar um agendamento para a avaliação.
 Na elaboração de treinos,o instrutor terá acesso aos dados do aluno bem como seu bio tipo e peso para montar sua ficha de treino que ficará já a 
 disposição no aplicativo.
-Ajudará na execução de exercícios e verificar os níveis de desmpenho.
+Ajudará na execução de exercícios e verificar os níveis de desempenho.
 De forma simples a automação desses processos permitem que essas funções sejam executadas digitalmente com facilidade entre os profissionais e clientes. 
 
 
