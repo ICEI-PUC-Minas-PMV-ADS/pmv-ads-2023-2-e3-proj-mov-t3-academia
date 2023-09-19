@@ -68,25 +68,29 @@ Ajudará na execução de exercícios e verificar os níveis de desempenho.
 De forma simples a automação desses processos permitem que essas funções sejam executadas digitalmente com facilidade entre os profissionais e clientes. 
 
 
-### Processo 1 – NOME DO PROCESSO
+### Processo 1 – Matrícula
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
+![Processo 1 - Matrícula](img/Matr%C3%ADcula.png)
 
-![Processo 1](img/02-bpmn-proc1.png)
+### Processo 2 – Avaliação Física
 
-### Processo 2 – NOME DO PROCESSO
+![Processo 2 - Avaliação Física](img/Avaliação%20Física.png)
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
+### Processo 3 – Treino
 
-![Processo 2](img/02-bpmn-proc2.png)
+![Processo 3 - Treino](img/Treino.png)
 
 ## Indicadores de Desempenho
 
 Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
 
-Usar o seguinte modelo: 
 
-![Indicadores de Desempenho](img/02-indic-desemp.png)
+| **Indicador** | **Objetivos** | **Descrição** | **Fonte dados** | **Perspectiva** |
+| ---           | ---           | ---           | ---             | ---             |
+| Percentual de novas matrículas | Avaliar crescimento de matrículas | Percentual de novas matrículas no mês | Tabela Matricula | Aprendizado e Crescimento |
+| Taxa de Requisições abertas | Melhorar a prestação de serviços medindo a porcentagem de alunos| Mede % de treinos realizados durante a semana | Tabela solicitações de professores| Processos internos |
+| Taxa de manutenção de equipamentos | Manter controle sobre os dados de alunos| Mede % de material entregue dentro do mês | Tabela de equipamentos em funcionamento| Clientes |
+
 Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
 
 ## Requisitos
