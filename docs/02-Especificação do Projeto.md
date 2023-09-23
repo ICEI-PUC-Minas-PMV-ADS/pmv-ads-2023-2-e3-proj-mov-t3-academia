@@ -52,7 +52,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 ### Análise da Situação Atual
 
 Em uma academia, existem funções repetidas diariamente pelos profissionais, como o cadastro de novos alunos, o controle de frequência, a criação e atualização de treinos e etc...
-Geralmente essas tarefas são realizadas por meio de planilhas e de formulários de cadastro. Contudo, isso pode complicar e sobrecarregar a gestão de uma academia como um todo.
+Geralmente essas tarefas são realizadas por meio de planilhas e de formulários de cadastro. Contudo, isso pode complicar e sobrecarregar a gestão de uma academia como um todo mundo.
 
 ### Descrição Geral da Proposta
 
