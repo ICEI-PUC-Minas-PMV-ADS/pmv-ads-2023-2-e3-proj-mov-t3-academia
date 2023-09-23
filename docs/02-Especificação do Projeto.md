@@ -54,6 +54,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 Em uma academia, existem funções repetidas diariamente pelos profissionais, como o cadastro de novos alunos, o controle de frequência, a criação e atualização de treinos e etc...
 Geralmente essas tarefas são realizadas por meio de planilhas e de formulários de cadastro. Contudo, isso pode complicar e sobrecarregar a gestão de uma academia como um todo.
 
+ Binary file addedBIN +85.3 KB 
+docs/img/Cadastro de Fornecedores Diagrama.png
+
 ### Descrição Geral da Proposta
 
 Neste contexto é fundamental pesquisar as principais tendências do universo fitness no mundo e implementar melhorias. 
