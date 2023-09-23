@@ -22,15 +22,32 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
-
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+
+### Tela de loading
+<div align="center"> <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/blob/main/docs/img/tela%20de%20loading.png" width="335" height="598"/> </div>
+<div align="center"><sup>Figura x - Tela de loading</sup></div>
+
+### Tela de login e cadastro
+<div align="center"> <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/blob/main/docs/img/tela%20de%20login%20e%20cadastro.png" width="335" height="598"/> </div>
+<div align="center"><sup>Figura x - Tela de login e cadastro</sup></div>
+
+### Tela de menu lateral 
+<div align="center"> <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/blob/main/docs/img/tela%20menu%20lateral%20aberto.png" width="335" height="598"/> </div>
+<div align="center"><sup>Figura x - Tela de menu lateral</sup></div>
+
+### Tela de criação e escolha de treino
+<div align="center"> <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/blob/main/docs/img/tela%20de%20cria%C3%A7%C3%A3o%20e%20escolha%20de%20treino.png" width="335" height="598"/> </div>
+<div align="center"><sup>Figura x - Tela de criação e escolha de treino</sup></div>
+
+### Tela de inicio do exercicio
+<div align="center"> <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/blob/main/docs/img/tela%20inicio%20do%20exercicio.png" width="335" height="598"/> </div>
+<div align="center"><sup>Figura x - Tela de inicio do exercicio</sup></div>
+
+### Tela de finalização de série
+<div align="center"> <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/blob/main/docs/img/tela%20fim%20de%20s%C3%A9rie.png" width="335" height="598"/> </div>
+<div align="center"><sup>Figura x - Tela de finalização de série</sup></div>
+
+### Tela personal pesquisando perfil de aluno
+<div align="center"> <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/blob/main/docs/img/tela%20personal%20pesquisando%20perfil%20de%20aluno.png" width="335" height="598"/> </div>
+<div align="center"><sup>Figura x - Tela personal pesquisando perfil de aluno</sup></div>
