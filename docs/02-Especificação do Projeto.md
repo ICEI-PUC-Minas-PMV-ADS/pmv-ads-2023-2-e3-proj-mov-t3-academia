@@ -54,11 +54,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 Em uma academia, existem funções repetidas diariamente pelos profissionais, como o cadastro de novos alunos, o controle de frequência, a criação e atualização de treinos e etc...
 Geralmente essas tarefas são realizadas por meio de planilhas e de formulários de cadastro. Contudo, isso pode complicar e sobrecarregar a gestão de uma academia como um todo.
 
+![processo análise da situação atual](img/Cadastro%20de%20Fornecedores%20Diagrama.png)
+
 ### Descrição Geral da Proposta
 
 Neste contexto é fundamental pesquisar as principais tendências do universo fitness no mundo e implementar melhorias. 
 Os processos a serem automatizados serão:
-No controle de pagamentos gerando boletos e cobranças no cartão de crédito.
+No controle de pagamentos gerando boletos e cobranças noimg/Cadastro%20de%20Fornecedores%20Diagrama.png cartão de crédito.
 No controle de alunos realizando cadastros e verificando a frequência.
 O aluno poderá ver as informações referentes ao plano e escolher o mais adequado e realizar a matrícula de forma on line.
 Estando matriculado o aluno será encaminhado para preencher seus objetivos e solicitar um agendamento para a avaliação.
