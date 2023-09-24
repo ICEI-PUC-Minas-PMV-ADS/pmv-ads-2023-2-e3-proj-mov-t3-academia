@@ -89,9 +89,9 @@ Apresente aqui os principais indicadores de desempenho e algumas metas para o pr
 
 | **Indicador** | **Objetivos** | **Descrição** | **Fonte dados** | **Perspectiva** |
 | ---           | ---           | ---           | ---             | ---             |
-| Percentual de novas matrículas | Avaliar crescimento de matrículas | Percentual de novas matrículas no mês | Tabela Matricula | Aprendizado e Crescimento |
+| Qualidade do uso do app | Avaliar crescimento de matrículas | Percentual de novas matrículas no mês | Tabela aulas e plano de treinos | Aprendizado e Crescimento |
 | Taxa de Requisições abertas | Melhorar a prestação de serviços medindo a porcentagem de alunos| Mede % de treinos realizados durante a semana | Tabela solicitações de professores| Processos internos |
-| Taxa de manutenção de equipamentos | Manter controle sobre os dados de alunos| Mede % de material entregue dentro do mês | Tabela de equipamentos em funcionamento| Clientes |
+| Equipamentos mais solicitados | Manter controle sobre os dados de alunos| Mede % de frequÊncias dentro do mês | Tabela de equipamentos em funcionamento| Opniõs dos Clientes sobre o app |
 
 Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
 
