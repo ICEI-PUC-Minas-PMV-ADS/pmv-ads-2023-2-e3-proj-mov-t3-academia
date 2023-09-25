@@ -24,32 +24,37 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+As tecnologias utilizadas empregadas no projeto são:
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+#### Linguagens de programação e tecnologias utilizadas:
+> * `JavaScript:` Linguagem de programação.
+> * `GitHub e Git:` Foi utilizada tanto como editor de código quanto ferramenta para a organização, serve como ambiente de armazenamento e edição do repositório do projeto.
+
+#### Frameworks utilizados:
+> * `React:` Foi escolhido por ser uma biblioteca do JavaScript.
+> * `React-Native:` É uma estrutura de aplicativo móvel popular, baseada na linguagem JavaScript, que permite criar aplicativos móveis renderizados nativamente para iOS e Android.
+
+#### Banco de dados:
+> - `SQLServer:` Software escolhido para armazenar os dados.
+
+#### Hospedagem:
+> - `Localhost`
+
+#### Design:
+> - `Figma:` Software escolhido para o desenvolvimento do layout.
 
 ## Hospedagem
+Até o momento será realizado a hospedagem em localhost. Em redes de computadores, Localhost se refere ao computador que está executando um programa. O computador funciona como se fosse um servidor virtual.
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
-
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
 
 ## Qualidade de Software
-
 Conceituar qualidade de fato é uma tarefa complexa, mas ela pode ser vista como um método gerencial que através de procedimentos disseminados por toda a organização, busca garantir um produto final que satisfaça às expectativas dos stakeholders.
 
 No contexto de desenvolvimento de software, qualidade pode ser entendida como um conjunto de características a serem satisfeitas, de modo que o produto de software atenda às necessidades de seus usuários. Entretanto, tal nível de satisfação nem sempre é alcançado de forma espontânea, devendo ser continuamente construído. Assim, a qualidade do produto depende fortemente do seu respectivo processo de desenvolvimento.
 
-A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, define oito características e 30 subcaracterísticas de qualidade para produtos de software.
-Com base nessas características e nas respectivas sub-características, identifique as sub-características que sua equipe utilizará como base para nortear o desenvolvimento do projeto de software considerando-se alguns aspectos simples de qualidade. Justifique as subcaracterísticas escolhidas pelo time e elenque as métricas que permitirão a equipe avaliar os objetos de interesse.
-
-> **Links Úteis**:
->
-> - [ISO/IEC 25010:2011 - Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models](https://www.iso.org/standard/35733.html/)
-> - [Análise sobre a ISO 9126 – NBR 13596](https://www.tiespecialistas.com.br/analise-sobre-iso-9126-nbr-13596/)
-> - [Qualidade de Software - Engenharia de Software 29](https://www.devmedia.com.br/qualidade-de-software-engenharia-de-software-29/18209/)
+|**Características**|**Subcaracterísticas**|**Justificativas**|
+|-------------------|----------------------|------------------|
+| Adequação Funcional | Adequação - Segurança de acesso | Todo sistema deve permitir os usuários realizarem tarefas específicas .A aplicação deve permitir que o usuário monte sua própria ficha de treino, a aplicação deve permitir que o usuário registre-se e faça login e etc. |
+| Usabilidade | Inteligibilidade | A aplicação movél será intuitiva e fácil de usar independente da sua interação com tecnlogia e deverá ter desempenho rápido e responsivo, entregando uma experiência positiva aos usuários. |
+| Portabilidade | Adaptável | Aplicação deverá ser compativel com diferente dispositivos movéis, reolução de tela e que haja facilidade na instalação assim conteplando o maior número de usuários. |
+| Manutenabilidade | Modificabilidade - Estabilidade | A aplicação deve ser testada com frequência, verificando possiveis falhas e erros, que deverão ser corrigidos com atualizações para manter a estabilidade. |
