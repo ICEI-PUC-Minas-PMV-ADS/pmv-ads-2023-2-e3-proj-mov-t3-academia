@@ -8,10 +8,12 @@ A tabela a seguir foi preenchida considerando os artefatos desenvolvidos:
 |----------|-----------------------------------------|----|
 |RF-001    | A aplicação deve permitir que o usuário monte sua própria ficha de treino. | Em construção  | 
 
-
 |ID        | Descrição do Requisito  | Altefato(s) produzido(s) |
 |----------|-----------------------------------------|----|
-|RF-002    | A aplicação deve permitir que o usuário registre-se e faça login.| Em construção |
+|RF-002    | A aplicação deve permitir que o usuário registre-se e faça login.| ***/Pages/Login.js <br> /Pages/Register.js*** |
+<div align="left"><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/blob/a88db363863750e67f29ba7503d598484e536d34/docs/img/Tela%20de%20login%20-%20fit-training.png"/>  
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/blob/a88db363863750e67f29ba7503d598484e536d34/docs/img/Tela%20de%20registro%20-%20fit-training.png" /></div>
+
 
 
 |ID        | Descrição do Requisito  | Altefato(s) produzido(s) |
