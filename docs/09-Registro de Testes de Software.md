@@ -11,7 +11,12 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/blob/main/docs/img/login%20sem%20sucesso.png">
 
-# CT 02.1 - Falha no Cadastro de Perfil
+# CT 02.1 - Cadastro de Perfil
+# Teste realizado:
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/blob/main/docs/img/cadastro.jpg">
+
+# CT 02.2 - Falha no Cadastro de Perfil
 # Teste realizado:
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/blob/main/docs/img/cadastro%20sem%20sucesso.png">
