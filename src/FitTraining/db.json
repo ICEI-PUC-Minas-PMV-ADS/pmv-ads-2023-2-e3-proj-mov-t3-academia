@@ -5,6 +5,18 @@
       "password": "$2a$10$8B8p59aXlrrC7e1.e2HFtePmW9K.QDCaceeF2w/dZZATwB9u1LJoy",
       "name": "ricardo f pereira",
       "id": 1
+    },
+    {
+      "email": "exemplo@gmail.com",
+      "password": "$2a$10$UuW7B94.eVBJa2WPoReQk.NVgjpALMaJIC76NKcCAMxl.gZQ4nsVW",
+      "name": "exemplo",
+      "id": 2
+    },
+    {
+      "email": "exemplo2@gmail.com",
+      "password": "$2a$10$JkhEJ26h90XrCyLrQJ3fu.QUyqKOF4iMDn63zouiy.JiMu9gPodjm",
+      "name": "exemplo2",
+      "id": 3
     }
   ]
 }

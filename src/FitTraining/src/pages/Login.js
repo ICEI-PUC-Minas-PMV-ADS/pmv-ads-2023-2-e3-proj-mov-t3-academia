@@ -45,7 +45,7 @@ const Login = () => {
   return (
     <Container>
 
-      <View style={styles.container}>
+      
     <Appbar.Header style={styles.header}>
      
       <Appbar.Content color="white" title="Login" />
@@ -54,8 +54,7 @@ const Login = () => {
    
     </Appbar.Header>
     
-    </View>
-     
+
 
       <Body>
         <Input

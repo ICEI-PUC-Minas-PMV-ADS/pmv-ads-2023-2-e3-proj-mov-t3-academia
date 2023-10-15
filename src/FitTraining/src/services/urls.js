@@ -1,1 +1,1 @@
-export const BASE_URL = ' https://rare-jobs-fail.loca.lt';
+export const BASE_URL = 'https://every-cameras-make.loca.lt';

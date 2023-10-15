@@ -1,22 +1,35 @@
 import React from 'react';
 import { Appbar } from 'react-native-paper';
-import {StyleSheet, View, Image} from 'react-native';
+import {Image, StyleSheet, View} from 'react-native';
+import Logo from './Logo';
 
 const Header = ({ goBack, children}) => {
   return (
+
+
     <Appbar.Header style={styles.header}>
-      {
-        goBack && 
-        <Appbar.BackAction color="white" onPress={goBack} />
-      }
-       <Image
-          source={require('../assets/fitTraining.png')}
-          style={styles.logo}
-        />
-      <Appbar.Content title={'Fit Training'} />
+    
+   
+      <Appbar.Content color='white' title={'Fit Training'} />
       {children}
+
+      <Logo/>
     </Appbar.Header>
+
   );
 };
+
+const styles = StyleSheet.create({
+
+
+header: {
+
+   backgroundColor:'#c0ccda',
+  
+
+},
+
+
+});
 
 export default Header;
