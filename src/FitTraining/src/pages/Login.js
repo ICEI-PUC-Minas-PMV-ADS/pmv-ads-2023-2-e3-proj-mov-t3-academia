@@ -102,7 +102,9 @@ const styles = StyleSheet.create({
   input:{
        backgroundColor:'#FFF',
     marginBottom: 8,
-    marginTop:50
+    marginTop:50,
+
+    margin: 8,
 
   },
     buttonLogin:{
