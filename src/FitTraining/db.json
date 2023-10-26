@@ -29,6 +29,12 @@
       "password": "$2a$10$TdQNR0z/Ef6nKUzAPTyKA.hJ7Zt0MRwpt/VaZna0EDQA8zOjyjV5u",
       "name": "exemplo 4",
       "id": 5
+    },
+    {
+      "email": "luisacoutinho06@gmail.com",
+      "password": "$2a$10$//vpBq4odjdKt1KDmHi06uFJxroRPeoGa/4e68sugDEKGeJZ6sk.S",
+      "name": "luisa",
+      "id": 6
     }
   ]
 }

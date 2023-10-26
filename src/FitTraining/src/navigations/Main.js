@@ -1,17 +1,17 @@
 import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import Home from '../pages/Home';
+import MenuInicialTreinos from '../components/MenuInicialTreinos';
 
 
 const Stack = createNativeStackNavigator();
 
 const Main = () => {
   return (
-    <Stack.Navigator initialRouteName="Home">
+    <Stack.Navigator initialRouteName="MenuInicialTreinos">
       <Stack.Screen
-        name="Home"
-        component={Home}
+        name="MenuInicialTreinos"
+        component={MenuInicialTreinos}
         options={{
           header: () => null,
         }}

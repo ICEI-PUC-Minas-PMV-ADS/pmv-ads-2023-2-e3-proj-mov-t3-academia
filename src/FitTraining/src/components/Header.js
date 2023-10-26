@@ -3,14 +3,14 @@ import { Appbar } from 'react-native-paper';
 import {Image, StyleSheet, View} from 'react-native';
 import Logo from './Logo';
 
-const Header = ({ goBack, children}) => {
+const Header = ({ goBack, children, title}) => {
   return (
 
 
     <Appbar.Header style={styles.header}>
     
    
-      <Appbar.Content color='white' title={'Fit Training'} />
+      <Appbar.Content color='black' title={title} />
       {children}
 
       <Logo/>
