@@ -35,6 +35,51 @@
       "password": "$2a$10$//vpBq4odjdKt1KDmHi06uFJxroRPeoGa/4e68sugDEKGeJZ6sk.S",
       "name": "luisa",
       "id": 6
+    },
+    {
+      "email": "teste@gmail.com",
+      "password": "$2a$10$uSsCYzJZHJOkP5THVj.t9ueOJQe1P6rY9nGZlNf7lc4TvgqPN2Y5K",
+      "name": "teste",
+      "id": 7
+    },
+    {
+      "email": "TESTE@gmail.com",
+      "password": "$2a$10$jm8SMMqv4gLsr4aw73K8VuEPfwdVOQzezbuxyhPb1sqvqHUPuGpLW",
+      "name": "Luisa",
+      "id": 8
+    },
+    {
+      "email": "Testinho@gmail.com",
+      "password": "$2a$10$gZtYLRLi/hz7OzAWAZpqbOjc2T1y33jpxHOJ945PDVu/45KzHr9nW",
+      "name": "TESTINHO",
+      "id": 9
+    }
+  ],
+  "exerciciosTreinoA": [
+    {
+      "nomeExercicio": "Barra Fixa",
+      "repeticoes": "12",
+      "series": "3",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fsnack-a9b0cc80-52de-4bcc-88f7-87de35517eb2-1c9b37c9-8aa9-464b-b346-af00c3e1e00a/ImagePicker/4e4da471-16d8-4ca9-a0ec-4e134c0b9ab5.gif",
+      "id": 1
+    }
+  ],
+  "exerciciosTreinoB": [
+    {
+      "nomeExercicioB": "Crucifixo Invertido",
+      "repeticoesB": "12",
+      "seriesB": "3",
+      "imageB": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fsnack-a9b0cc80-52de-4bcc-88f7-87de35517eb2-1c9b37c9-8aa9-464b-b346-af00c3e1e00a/ImagePicker/dac05145-190d-4422-98cf-02f2756f5ff4.gif",
+      "id": 1
+    }
+  ],
+  "exerciciosTreinoC": [
+    {
+      "nomeExercicioC": "Supino Reto",
+      "repeticoesC": "12",
+      "seriesC": "3",
+      "imageC": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fsnack-a9b0cc80-52de-4bcc-88f7-87de35517eb2-1c9b37c9-8aa9-464b-b346-af00c3e1e00a/ImagePicker/c67fc661-7168-40f9-a61e-45369ba308bf.gif",
+      "id": 1
     }
   ]
 }

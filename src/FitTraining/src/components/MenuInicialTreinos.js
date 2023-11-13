@@ -1,16 +1,16 @@
 import * as React from "react";
-import { BottomNavigation, Text } from "react-native-paper";
+import { BottomNavigation, Text, List } from "react-native-paper";
 
-import TelaInicial from "../pages/TelaInicial";
-import TreinoB from "../pages/TreinoB";
-import TreinoC from "../pages/TreinoC";
+import TelaInicial from "../pages/telasIniciais/TelaInicial";
+import TreinoB from "../pages/telasIniciais/TreinoB";
+import TreinoC from "../pages/telasIniciais/TreinoC";
 
 const MenuInicialTreinos = () => {
     const [index, setIndex] = React.useState(0);
     const [routes] = React.useState([
-        { key: 'telaInicial', title: 'Treino A'},
-        { key: 'treinoB', title: 'Treino B'},
-        { key: 'treinoC', title: 'Treino C'}
+        { key: 'telaInicial', title: 'Treino A', icon: 'dumbbell'},
+        { key: 'treinoB', title: 'Treino B', icon: 'dumbbell'},
+        { key: 'treinoC', title: 'Treino C', icon: 'dumbbell'}
     ]);
 
     const renderScene = BottomNavigation.SceneMap({
@@ -29,7 +29,7 @@ const MenuInicialTreinos = () => {
                 bottom: 0,
                 left: 0,
                 right: 0,
-                backgroundColor: '#c0ccda'
+                backgroundColor: '#73808f'
             }}
         />
     );
