@@ -35,24 +35,6 @@
       "password": "$2a$10$//vpBq4odjdKt1KDmHi06uFJxroRPeoGa/4e68sugDEKGeJZ6sk.S",
       "name": "luisa",
       "id": 6
-    },
-    {
-      "email": "teste@gmail.com",
-      "password": "$2a$10$uSsCYzJZHJOkP5THVj.t9ueOJQe1P6rY9nGZlNf7lc4TvgqPN2Y5K",
-      "name": "teste",
-      "id": 7
-    },
-    {
-      "email": "TESTE@gmail.com",
-      "password": "$2a$10$jm8SMMqv4gLsr4aw73K8VuEPfwdVOQzezbuxyhPb1sqvqHUPuGpLW",
-      "name": "Luisa",
-      "id": 8
-    },
-    {
-      "email": "Testinho@gmail.com",
-      "password": "$2a$10$gZtYLRLi/hz7OzAWAZpqbOjc2T1y33jpxHOJ945PDVu/45KzHr9nW",
-      "name": "TESTINHO",
-      "id": 9
     }
   ],
   "exerciciosTreinoA": [
