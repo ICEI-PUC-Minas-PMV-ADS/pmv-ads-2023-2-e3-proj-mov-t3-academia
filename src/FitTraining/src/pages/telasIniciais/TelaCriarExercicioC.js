@@ -41,7 +41,7 @@ const TelaCriarExercicioC = ({ route }) => {
             setNomeExercicioC(item.nomeExercicioC);
             setRepeticoesC(item.repeticoesC.toString());
             setSeriesC(item.seriesC.toString());
-            setImageC(item.imagemExercicioC)
+            setImageC(item.imageC)
         }
     }, [item]);
 
