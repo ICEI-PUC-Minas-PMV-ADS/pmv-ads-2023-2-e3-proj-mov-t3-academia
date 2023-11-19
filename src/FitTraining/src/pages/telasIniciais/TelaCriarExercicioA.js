@@ -67,6 +67,7 @@ const TelaCriarExercicioA = ({ route }) => {
     const handleExcluir = () => {
         deleteExerciciosTreinoA(item.id).then(res => { navigation.goBack(); });
     };
+    
 
     return (
         <ContainerTelasIniciais>
@@ -148,7 +149,7 @@ const TelaCriarExercicioA = ({ route }) => {
                         mode='contained'
                     >EXCLUIR</Button>
                 }
-
+                  
             </BodyTelasIniciais>
         </ContainerTelasIniciais >
     );
@@ -202,6 +203,17 @@ const styles = StyleSheet.create({
         marginHorizontal: 10,
     },
 
+    botaoIniciar: {
+        marginTop: 10,
+        marginVertical: 10,
+        marginHorizontal: 10,
+    },
+    overlay: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    },
 });
 
 

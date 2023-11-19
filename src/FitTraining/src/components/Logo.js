@@ -12,7 +12,8 @@ const Logo = () =>{
        logo:{
 
     width:65,
-    height:55
+    height:55,
+    marginLeft: 300,
 
   },
    })

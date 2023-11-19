@@ -7,6 +7,7 @@ import TelaCriarExercicioB from '../pages/telasIniciais/TelaCriarExercicioB';
 import TelaCriarExercicioC from '../pages/telasIniciais/TelaCriarExercicioC';
 import TreinoB from '../pages/telasIniciais/TreinoB';
 import TreinoC from '../pages/telasIniciais/TreinoC';
+import IniciarTreino from '../pages/telasIniciais/IniciarTreino';
 import TelaInicial from '../pages/telasIniciais/TelaInicial';
 
 const Stack = createNativeStackNavigator();
@@ -52,6 +53,13 @@ const Main = () => {
             <Stack.Screen
         name="TreinoC"
         component={TreinoC}
+        options={{
+          header: () => null,
+        }}
+        />
+        <Stack.Screen
+        name="IniciarTreino"
+        component={IniciarTreino}
         options={{
           header: () => null,
         }}

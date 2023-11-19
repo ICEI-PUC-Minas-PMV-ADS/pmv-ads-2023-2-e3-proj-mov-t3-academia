@@ -35,6 +35,12 @@
       "password": "$2a$10$//vpBq4odjdKt1KDmHi06uFJxroRPeoGa/4e68sugDEKGeJZ6sk.S",
       "name": "luisa",
       "id": 6
+    },
+    {
+      "email": "ruas.diegotoledo@gmail.com",
+      "password": "$2a$10$WbUUbj.ipUcsLIhPE77LyOyjwwjfX0TM3AR3mdttnRtdefd3rOIC6",
+      "name": "Diego",
+      "id": 7
     }
   ],
   "exerciciosTreinoA": [
@@ -42,8 +48,15 @@
       "nomeExercicio": "Barra Fixa",
       "repeticoes": "12",
       "series": "3",
-      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fsnack-a9b0cc80-52de-4bcc-88f7-87de35517eb2-1c9b37c9-8aa9-464b-b346-af00c3e1e00a/ImagePicker/4e4da471-16d8-4ca9-a0ec-4e134c0b9ab5.gif",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fsnack-a9b0cc80-52de-4bcc-88f7-87de35517eb2-5fc49327-95a4-4fab-9cbf-ef7877d6113e/ImagePicker/90dbf085-a594-41fd-ac4e-e2fc706b5ead.jpeg",
       "id": 1
+    },
+    {
+      "nomeExercicio": "Djklnfjknasldfkjnlaswd",
+      "repeticoes": "12",
+      "series": "3",
+      "image": "https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/b6cc0a2110c2d1172c2bafa05dacfda720a917af/docs/img/tela%20de%20fundo%20-%20imagem%20do%20exercicio.jpg",
+      "id": 2
     }
   ],
   "exerciciosTreinoB": [

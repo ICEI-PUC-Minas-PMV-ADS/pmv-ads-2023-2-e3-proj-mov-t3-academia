@@ -62,6 +62,12 @@ const TelaInicial = ({ instrutor, data }) => {
           onPress={() => navigation.navigate('TelaCriarExercicioA')}
         />
 
+        <Button
+          color='#73808f'
+          title={"INICIAR TREINO"}
+          onPress={() => navigation.navigate('IniciarTreino')}
+        />
+
         <FlatList
           data={exerciciosTreinoA}
           renderItem={renderItem}
