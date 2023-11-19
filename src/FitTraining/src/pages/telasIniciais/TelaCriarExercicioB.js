@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, Image } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, Image, Alert } from 'react-native';
 import { Appbar, Button } from 'react-native-paper';
 import * as ImagePicker from 'expo-image-picker';
 
@@ -45,27 +45,57 @@ const TelaCriarExercicioB = ({ route }) => {
     }, [item]);
 
     const handleSalvar = () => {
-        if (item) {
-            updateExerciciosTreinoB({
-                nomeExercicioB: nomeExercicioB,
-                repeticoesB: repeticoesB,
-                seriesB: seriesB,
-                imageB: imageB,
-                id: item.id
-            }).then(res => { navigation.goBack(); });
+        if (!nomeExercicioB || !repeticoesB || !seriesB) {
+            Alert.alert('Atenção', "Por favor, preencha todos os campos obrigatórios.");
+            return;
         }
-        else {
-            insertExerciciosTreinoB({
-                nomeExercicioB: nomeExercicioB,
-                repeticoesB: repeticoesB,
-                seriesB: seriesB,
-                imageB: imageB
-            }).then(res => { navigation.goBack(); });
+
+        try {
+            if (item) {
+                updateExerciciosTreinoB({
+                    nomeExercicioB: nomeExercicioB,
+                    repeticoesB: repeticoesB,
+                    seriesB: seriesB,
+                    imageB: imageB,
+                    id: item.id
+                }).then(res => {
+                    if (res) {
+                        navigation.goBack();
+                    } else {
+                        Alert.alert('Atenção', "Ocorreu um erro ao tentar se conectar com o servidor. Tente novamente mais tarde! :(");
+                    }
+                }).catch(error => {
+                    Alert.alert('Atenção', "Não foi possível salvar o treino, tente novamente mais tarde :(");
+                });
+            } else {
+                insertExerciciosTreinoB({
+                    nomeExercicioB: nomeExercicioB,
+                    repeticoesB: repeticoesB,
+                    seriesB: seriesB,
+                    imageB: imageB
+                }).then(res => {
+                    if (res) {
+                        navigation.goBack();
+                    } else {
+                        Alert.alert('Atenção', "Ocorreu um erro ao tentar se conectar com o servidor. Tente novamente mais tarde! :(");
+                    }
+                }).catch(error => {
+                    Alert.alert('Atenção', "Não foi possível salvar o treino, tente novamente mais tarde :(");
+                });
+            }
+        } catch (error) {
+            Alert.alert('Atenção', "Não foi possível salvar o treino, tente novamente mais tarde :(");
         }
     };
 
     const handleExcluir = () => {
-        deleteExerciciosTreinoB(item.id).then(res => { navigation.goBack(); });
+        try {
+            deleteExerciciosTreinoB(item.id).then(res => {
+                navigation.goBack();
+            });
+        } catch (error) {
+            Alert.alert('Atenção', "Não foi possível excluir o treino, tente novamente mais tarde :(");
+        }
     };
 
     return (
@@ -77,7 +107,7 @@ const TelaCriarExercicioB = ({ route }) => {
             </Appbar.Header>
             <BodyTelasIniciais>
                 <Input
-                    label="Nome do exercício"
+                    label="Nome do exercício *"
                     value={nomeExercicioB}
                     onChangeText={(text) => setNomeExercicioB(text)}
                     style={styles.inpuNome}
@@ -89,7 +119,7 @@ const TelaCriarExercicioB = ({ route }) => {
                     }}
                 />
                 <Input
-                    label="Repetições"
+                    label="Repetições *"
                     value={repeticoesB}
                     onChangeText={(Number) => setRepeticoesB(Number)}
                     style={styles.inputRepeticao}
@@ -102,7 +132,7 @@ const TelaCriarExercicioB = ({ route }) => {
                     }}
                 />
                 <Input
-                    label="Séries"
+                    label="Séries *"
                     value={seriesB}
                     onChangeText={(Number) => setSeriesB(Number)}
                     color='black'

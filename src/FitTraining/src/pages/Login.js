@@ -13,6 +13,7 @@ import { useNavigation } from '@react-navigation/native';
 import {useUser} from '../contexts/UserContext';
 
 import {login} from '../services/auth.services';
+const { setSigned, setName, setUserId } = useUser();
 
 const Login = () => {
 
@@ -33,6 +34,7 @@ const Login = () => {
       if(res && res.user){
         setSigned(true);
         setName(res.user.name);
+        setUserId(res.user.id);
         AsyncStorage.setItem('@TOKEN_KEY', res.accessToken).then();
       }else{
          Alert.alert('Atenção', 'Usuário ou senha inválidos!');

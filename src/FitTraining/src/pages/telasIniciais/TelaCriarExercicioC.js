@@ -46,27 +46,57 @@ const TelaCriarExercicioC = ({ route }) => {
     }, [item]);
 
     const handleSalvar = () => {
-        if (item) {
-            updateExerciciosTreinoC({
-                nomeExercicioC: nomeExercicioC,
-                repeticoesC: repeticoesC,
-                seriesC: seriesC,
-                imageC: imageC,
-                id: item.id
-            }).then(res => { navigation.goBack(); });
+        if (!nomeExercicioC || !repeticoesC || !seriesC) {
+            Alert.alert('Atenção', "Por favor, preencha todos os campos obrigatórios.");
+            return;
         }
-        else {
-            insertExerciciosTreinoC({
-                nomeExercicioC: nomeExercicioC,
-                repeticoesC: repeticoesC,
-                seriesC: seriesC,
-                imageC: imageC
-            }).then(res => { navigation.goBack(); });
+
+        try {
+            if (item) {
+                updateExerciciosTreinoC({
+                    nomeExercicioC: nomeExercicioC,
+                    repeticoesC: repeticoesC,
+                    seriesC: seriesC,
+                    imageC: imageC,
+                    id: item.id
+                }).then(res => {
+                    if (res) {
+                        navigation.goBack();
+                    } else {
+                        Alert.alert('Atenção', "Ocorreu um erro ao tentar se conectar com o servidor. Tente novamente mais tarde! :(");
+                    }
+                }).catch(error => {
+                    Alert.alert('Atenção', "Não foi possível salvar o treino, tente novamente mais tarde :(");
+                });
+            } else {
+                insertExerciciosTreinoC({
+                    nomeExercicioC: nomeExercicioC,
+                    repeticoesC: repeticoesC,
+                    seriesC: seriesC,
+                    imageC: imageC
+                }).then(res => {
+                    if (res) {
+                        navigation.goBack();
+                    } else {
+                        Alert.alert('Atenção', "Ocorreu um erro ao tentar se conectar com o servidor. Tente novamente mais tarde! :(");
+                    }
+                }).catch(error => {
+                    Alert.alert('Atenção', "Não foi possível salvar o treino, tente novamente mais tarde :(");
+                });
+            }
+        } catch (error) {
+            Alert.alert('Atenção', "Não foi possível salvar o treino, tente novamente mais tarde :(");
         }
     };
 
     const handleExcluir = () => {
-        deleteExerciciosTreinoC(item.id).then(res => { navigation.goBack(); });
+        try {
+            deleteExerciciosTreinoC(item.id).then(res => {
+                navigation.goBack();
+            });
+        } catch (error) {
+            Alert.alert('Atenção', "Não foi possível excluir o treino, tente novamente mais tarde :(");
+        }
     };
 
     return (
@@ -78,7 +108,7 @@ const TelaCriarExercicioC = ({ route }) => {
             </Appbar.Header>
             <BodyTelasIniciais>
                 <Input
-                    label="Nome do exercício"
+                    label="Nome do exercício *"
                     value={nomeExercicioC}
                     onChangeText={(text) => setNomeExercicioC(text)}
                     style={styles.inpuNome}
@@ -90,7 +120,7 @@ const TelaCriarExercicioC = ({ route }) => {
                     }}
                 />
                 <Input
-                    label="Repetições"
+                    label="Repetições *"
                     value={repeticoesC}
                     onChangeText={(Number) => setRepeticoesC(Number)}
                     style={styles.inputRepeticao}
@@ -103,7 +133,7 @@ const TelaCriarExercicioC = ({ route }) => {
                     }}
                 />
                 <Input
-                    label="Séries"
+                    label="Séries *"
                     value={seriesC}
                     onChangeText={(Number) => setSeriesC(Number)}
                     color='black'
