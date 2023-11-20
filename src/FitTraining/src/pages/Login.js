@@ -13,7 +13,6 @@ import { useNavigation } from '@react-navigation/native';
 import {useUser} from '../contexts/UserContext';
 
 import {login} from '../services/auth.services';
-
 const Login = () => {
 
   const navigation = useNavigation();

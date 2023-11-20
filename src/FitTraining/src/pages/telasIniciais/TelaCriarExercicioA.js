@@ -69,12 +69,11 @@ const TelaCriarExercicioA = ({ route }) => {
     };
 
     return (
-        <ContainerTelasIniciais>
-            <Appbar.Header style={styles.header}>
-                <Appbar.BackAction color="black" onPress={() => navigation.navigate('MenuInicialTreinos')} />
+         <ContainerTelasIniciais>
+          {/* <Appbar.Header style={styles.header}>
+                <Appbar.BackAction color="black" onPress={() => navigation.navigate('TelaInicial')} />
                 <Appbar.Content color="black" title="CRIAR NOVO EXERCÍCIO" />
-                <Logo />
-            </Appbar.Header>
+            </Appbar.Header>  */}
             <BodyTelasIniciais>
                 <Input
                     label="Nome do exercício"
@@ -201,7 +200,17 @@ const styles = StyleSheet.create({
         marginVertical: 10,
         marginHorizontal: 10,
     },
-
+    botaoIniciar: {
+        marginTop: 10,
+        marginVertical: 10,
+        marginHorizontal: 10,
+    },
+    overlay: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    },
 });
 
 

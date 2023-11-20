@@ -6,6 +6,7 @@ import { Table, Row } from 'react-native-table-component';
 import Header from '../../components/Header';
 import BodyTelasIniciais from '../../components/BodyTelasIniciais';
 import ContainerTelasIniciais from '../../components/ContainerTelasIniciais';
+import HeaderPagInicio from '../../components/HeaderPagInicio';
 
 import { useNavigation } from '@react-navigation/native';
 import { useIsFocused } from '@react-navigation/native';
@@ -44,7 +45,8 @@ const TreinoC = ({ instrutor, data }) => {
   return (
 
     <ContainerTelasIniciais>
-      <Header title={"Treino C"} />
+      <HeaderPagInicio title={"Treino C"}/>
+      {/* <Header title={"Treino C"} /> */}
       <BodyTelasIniciais>
 
         <Table borderStyle={{ borderWidth: 1, borderColor: '#73808f' }}>

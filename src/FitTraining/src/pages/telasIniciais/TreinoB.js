@@ -6,7 +6,7 @@ import { Table, Row } from 'react-native-table-component';
 import Header from '../../components/Header';
 import BodyTelasIniciais from '../../components/BodyTelasIniciais';
 import ContainerTelasIniciais from '../../components/ContainerTelasIniciais';
-
+import HeaderPagInicio from '../../components/HeaderPagInicio';
 import { useNavigation } from '@react-navigation/native';
 
 import { getExerciciosTreinoB } from '../../services/exerciciosTreinoB.services';
@@ -43,7 +43,8 @@ const TreinoB = ({ instrutor, data }) => {
   return (
 
     <ContainerTelasIniciais>
-      <Header title={"Treino B"} />
+      <HeaderPagInicio title={"Treino B"}/>
+      {/* <Header title={"Treino B"} /> */}
       <BodyTelasIniciais>
 
         <Table borderStyle={{ borderWidth: 1, borderColor: '#73808f' }}>

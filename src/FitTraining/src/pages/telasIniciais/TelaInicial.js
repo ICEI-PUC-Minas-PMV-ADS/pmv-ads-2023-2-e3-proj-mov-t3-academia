@@ -1,11 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { List } from 'react-native-paper';
-import { FlatList, Image, StyleSheet, Button } from 'react-native';
+import { FlatList, Image, StyleSheet, Button, TouchableOpacity, View } from 'react-native';
 import { Table, Row } from 'react-native-table-component';
 
 import Header from '../../components/Header';
 import BodyTelasIniciais from '../../components/BodyTelasIniciais';
 import ContainerTelasIniciais from '../../components/ContainerTelasIniciais';
+import TelaCriarExercicioA from './TelaCriarExercicioA';
+import TelaCriarExercicioB from './TelaCriarExercicioB';
+import TelaCriarExercicioC from './TelaCriarExercicioC';
+import HeaderPagInicio from '../../components/HeaderPagInicio';
 
 import { useNavigation } from '@react-navigation/native';
 
@@ -44,7 +48,8 @@ const TelaInicial = ({ instrutor, data }) => {
   return (
 
     <ContainerTelasIniciais>
-      <Header title={"Treino A"} />
+        <HeaderPagInicio title={"Treino A"}/>
+      {/* <Header title={"Treino A"} /> */}
       <BodyTelasIniciais>
 
         <Table borderStyle={{ borderWidth: 1, borderColor: '#73808f' }}>
@@ -62,6 +67,12 @@ const TelaInicial = ({ instrutor, data }) => {
           onPress={() => navigation.navigate('TelaCriarExercicioA')}
         />
 
+        <Button
+          color='#73808f'
+          title={"INICIAR TREINO"}
+          onPress={() => navigation.navigate('IniciarTreino')}
+        />
+
         <FlatList
           data={exerciciosTreinoA}
           renderItem={renderItem}
@@ -72,6 +83,7 @@ const TelaInicial = ({ instrutor, data }) => {
     </ContainerTelasIniciais>
   );
 };
+
 
 const styles = StyleSheet.create({
   item: {
