@@ -32,6 +32,7 @@ const Login = () => {
       if(res && res.user){
         setSigned(true);
         setName(res.user.name);
+        setUserId(res.user.id);
         AsyncStorage.setItem('@TOKEN_KEY', res.accessToken).then();
       }else{
          Alert.alert('Atenção', 'Usuário ou senha inválidos!');

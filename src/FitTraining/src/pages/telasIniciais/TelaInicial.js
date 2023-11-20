@@ -26,7 +26,6 @@ const TelaInicial = ({ instrutor, data }) => {
 
   useEffect(() => {
     getExerciciosTreinoA().then(dados => {
-      console.log(dados);
       setExerciciosTreinoA(dados);
     });
   }, [isFocused]);
