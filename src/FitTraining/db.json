@@ -41,6 +41,12 @@
       "password": "$2a$10$8eY8ByTx42.JPPaW9eDegesjwKGLSjMwXP4EUwkWZ2koEHsLy9632",
       "name": "teste",
       "id": 7
+    },
+    {
+      "email": "teste@teste",
+      "password": "$2a$10$3qIphkMONp834uLxMT6y9.yt460Vsj8Win0y/gTkmpZM14u8V3cHq",
+      "name": "teste",
+      "id": 8
     }
   ],
   "exerciciosTreinoA": [

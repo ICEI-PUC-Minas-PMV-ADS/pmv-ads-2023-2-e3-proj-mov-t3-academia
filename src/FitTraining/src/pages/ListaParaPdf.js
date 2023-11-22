@@ -2,17 +2,20 @@ import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import * as Print from 'expo-print';
 import dbData from '../../db.json';
+import * as FileSystem from 'expo-file-system';
 
 const PrintDBData = () => {
   const handlePrint = async () => {
     const content = generateHTMLContent(dbData.exerciciosTreinoA);
+    const localUri = FileSystem.cacheDirectory + 'exercicio.pdf';
 
     try {
-      const { uri } = await Print.printToFileAsync({
-        html: content,
+      await FileSystem.writeAsStringAsync(localUri, content, {
+        encoding: FileSystem.EncodingType.UTF8,
       });
 
-      console.log(uri);
+      // Abre o arquivo localmente
+      await Print.printAsync({ uri: localUri, name: 'Exercicio.pdf' });
     } catch (error) {
       console.error(error);
     }
@@ -21,11 +24,23 @@ const PrintDBData = () => {
   const generateHTMLContent = (exerciciosTreinoA) => {
     return `
       <html>
+        <head>
+          <style>
+            h1 {
+              color: #333;
+              text-align: center;
+            }
+            li {
+              margin-bottom: 10px;
+            }
+          </style>
+        </head>
         <body>
           <h1>Lista de exercicios:</h1>
           <ul>
-            ${exerciciosTreinoA.map
-              (exerciciosTreinoA => `<li>${exerciciosTreinoA.nomeExercicio}: ${exerciciosTreinoA.repeticoes}: ${exerciciosTreinoA.series}</li>`).join('')}
+            ${exerciciosTreinoA.map(
+              (exercicio) => `<li>${exercicio.nomeExercicio}: Repetições - ${exercicio.repeticoes}, Séries - ${exercicio.series}</li>`
+            ).join('')}
           </ul>
         </body>
       </html>
@@ -34,9 +49,8 @@ const PrintDBData = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Baixe sua ficha </Text>
       <TouchableOpacity onPress={handlePrint} style={styles.button}>
-        <Text style={styles.buttonText}>Lista de treino A </Text>
+        <Text style={styles.buttonText}>Imprimir</Text>
       </TouchableOpacity>
     </View>
   );
@@ -48,12 +62,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-  title: {
-    fontSize: 34,
-    marginBottom: 20,
-  },
   button: {
-    backgroundColor: '#3498db',
+    backgroundColor: 'blue',
     padding: 10,
     borderRadius: 5,
   },
