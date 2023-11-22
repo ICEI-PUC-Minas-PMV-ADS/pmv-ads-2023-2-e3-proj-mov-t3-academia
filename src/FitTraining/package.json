@@ -1,17 +1,29 @@
 {
+  "main": "node_modules/expo/AppEntry.js",
   "name": "fittraining",
   "version": "1.0.0",
   "description": "Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!",
-  "main": "App.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@react-native-async-storage/async-storage": "1.18.2",
+    "@react-navigation/drawer": "^6.6.6",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/native-stack": "^6.9.17",
     "axios": "^1.6.2",
+    "expo": "^49.0.20",
+    "expo-image-picker": "~14.3.2",
+    "expo-print": "~12.4.2",
     "firebase": "^10.6.0",
-    "react-native-gesture-handler": "^2.13.4",
-    "react-native-reanimated": "^3.5.4"
+    "react-native-gesture-handler": "~2.12.0",
+    "react-native-paper": "^5.11.1",
+    "react-native-reanimated": "~3.3.0",
+    "react-native-table-component": "^1.2.2"
   }
 }
