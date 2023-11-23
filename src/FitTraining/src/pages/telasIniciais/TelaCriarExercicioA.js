@@ -101,10 +101,7 @@ const TelaCriarExercicioA = ({ route }) => {
 
     return (
          <ContainerTelasIniciais>
-          {/* <Appbar.Header style={styles.header}>
-                <Appbar.BackAction color="black" onPress={() => navigation.navigate('TelaInicial')} />
-                <Appbar.Content color="black" title="CRIAR NOVO EXERCÍCIO" />
-            </Appbar.Header>  */}
+
             <BodyTelasIniciais>
                 <Input
                     label="Nome do exercício *"

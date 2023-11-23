@@ -8,7 +8,7 @@ import Input from '../components/Input';
 import Logo from '../components/Logo';
 import Header from '../components/Header';
 
-
+import MenuInicialTreinos from '../components/MenuInicialTreinos';
 import { useNavigation } from '@react-navigation/native';
 import {useUser} from '../contexts/UserContext';
 
@@ -32,12 +32,10 @@ const Login = () => {
       if(res && res.user){
         setSigned(true);
         setName(res.user.name);
-        setUserId(res.user.id);
-        AsyncStorage.setItem('@TOKEN_KEY', res.accessToken).then();
+        AsyncStorage.setItem('@TOKEN_KEY', res.accessToken).then()
       }else{
          Alert.alert('Atenção', 'Usuário ou senha inválidos!');
       }
-
     });
     
   }
@@ -53,8 +51,6 @@ const Login = () => {
       <Logo/>
    
     </Appbar.Header>
-    
-
 
       <Body>
         <Input

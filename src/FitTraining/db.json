@@ -51,32 +51,18 @@
   ],
   "exerciciosTreinoA": [
     {
-      "nomeExercicio": "Barra Fixa",
-      "repeticoes": "11",
+      "nomeExercicio": "testes",
+      "repeticoes": "12",
       "series": "3",
-      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fsnack-a9b0cc80-52de-4bcc-88f7-87de35517eb2-6c2679e0-0eff-43d4-9cc1-66b7886a9a3a/ImagePicker/65908920-5d42-4865-ab7f-a81e44a8ba79.jpeg",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fsnack-a9b0cc80-52de-4bcc-88f7-87de35517eb2-1c9b37c9-8aa9-464b-b346-af00c3e1e00a/ImagePicker/a24c2464-ce99-4ea5-b9ca-cfa87557760e.jpeg",
       "id": 1
     },
     {
-      "nomeExercicio": "teste",
-      "repeticoes": "15",
-      "series": "5",
-      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fsnack-a9b0cc80-52de-4bcc-88f7-87de35517eb2-6c2679e0-0eff-43d4-9cc1-66b7886a9a3a/ImagePicker/8b305a2a-d1ed-4a66-b311-d611d130e25c.jpeg",
-      "id": 2
-    },
-    {
       "nomeExercicio": "teste1",
-      "repeticoes": "11",
-      "series": "1",
+      "repeticoes": "12",
+      "series": "3",
       "image": "https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/b6cc0a2110c2d1172c2bafa05dacfda720a917af/docs/img/tela%20de%20fundo%20-%20imagem%20do%20exercicio.jpg",
-      "id": 3
-    },
-    {
-      "nomeExercicio": "aa",
-      "repeticoes": "aa",
-      "series": "1a",
-      "image": "https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/b6cc0a2110c2d1172c2bafa05dacfda720a917af/docs/img/tela%20de%20fundo%20-%20imagem%20do%20exercicio.jpg",
-      "id": 4
+      "id": 2
     }
   ],
   "exerciciosTreinoB": [

@@ -37,14 +37,13 @@ const TreinoB = ({ instrutor, data }) => {
     />
   );
 
-  const tableHead = ['Instrutor:', 'Data:']; // Cabeçalho da tabela
-  const tableData = [[instrutor = "Bruno", data = "03/11/2023"]]; // Dados da tabela
+  const tableHead = ['Instrutor:', 'Data:'];
+  const tableData = [[instrutor = "Bruno", data = "03/11/2023"]];
 
   return (
 
     <ContainerTelasIniciais>
       <HeaderPagInicio title={"Treino B"}/>
-      {/* <Header title={"Treino B"} /> */}
       <BodyTelasIniciais>
 
         <Table borderStyle={{ borderWidth: 1, borderColor: '#73808f' }}>

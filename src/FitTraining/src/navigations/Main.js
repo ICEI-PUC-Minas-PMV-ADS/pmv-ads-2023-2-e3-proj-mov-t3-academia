@@ -18,13 +18,8 @@ const Drawer = createDrawerNavigator();
 
 const DrawerNavigator = ({ route }) => {
 
-
-
   return (
-    
-    
     <Drawer.Navigator
-
         drawerContent={
             (props) => {
         

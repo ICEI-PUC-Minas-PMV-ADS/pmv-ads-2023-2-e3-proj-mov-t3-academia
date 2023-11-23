@@ -14,8 +14,8 @@ const Route = () => {
     <>
     {
       signed 
-      ? <Auth />
-      : <Main />
+      ? <Main />
+      : <Auth />
     }
     </>
   )
