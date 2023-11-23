@@ -51,13 +51,6 @@
   ],
   "exerciciosTreinoA": [
     {
-      "nomeExercicio": "testes",
-      "repeticoes": "12",
-      "series": "3",
-      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fsnack-a9b0cc80-52de-4bcc-88f7-87de35517eb2-1c9b37c9-8aa9-464b-b346-af00c3e1e00a/ImagePicker/a24c2464-ce99-4ea5-b9ca-cfa87557760e.jpeg",
-      "id": 1
-    },
-    {
       "nomeExercicio": "teste1",
       "repeticoes": "12",
       "series": "3",
