@@ -3,6 +3,7 @@ import { View, Text, Image } from 'react-native';
 import { DrawerItemList, createDrawerNavigator } from '@react-navigation/drawer';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { NavigationContainer } from '@react-navigation/native';
+import { useUser } from '../contexts/UserContext'
 
 import {
   SimpleLineIcons,
@@ -17,6 +18,8 @@ import ListaParaPdf from '../pages/ListaParaPdf';
 const Drawer = createDrawerNavigator();
 
 const DrawerNavigator = ({ route }) => {
+
+    const { name } = useUser();
 
   return (
     <Drawer.Navigator
@@ -54,7 +57,7 @@ const DrawerNavigator = ({ route }) => {
                              }}
                              >
 
-                            <Text> Nome Padrão</Text>
+                            <Text>{name}</Text>
                               
                             </Text>
                             </View>
@@ -64,7 +67,7 @@ const DrawerNavigator = ({ route }) => {
                                 color: "#fff",
                                 paddingBottom: 10
                              }} 
-                             >Aluno Iniciante
+                             >Aluno
                             </Text>
                         </View>
                         <DrawerItemList {...props}/>

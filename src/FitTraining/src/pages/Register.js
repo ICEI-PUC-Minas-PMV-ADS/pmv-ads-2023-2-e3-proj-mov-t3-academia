@@ -62,20 +62,20 @@ const Register = () => {
               style={styles.input}
           value={name}
           onChangeText={(text) => setName(text)}
-          left={<TextInput.Icon name="account" />}
+          left={<TextInput.Icon icon="account" />}
         />
         <Input
           label="Email"
           value={email}
           onChangeText={(text) => setEmail(text)}
-          left={<TextInput.Icon name="email" />}
+          left={<TextInput.Icon icon="email" />}
         />
         <Input
           label="Senha"
           value={password}
           secureTextEntry
           onChangeText={(text) => setPassword(text)}
-          left={<TextInput.Icon name="key" />}
+          left={<TextInput.Icon icon="key" />}
         />
         <TouchableOpacity
            style={styles.buttonRegister}
@@ -108,12 +108,14 @@ const styles = StyleSheet.create({
     marginBottom: 8,
     marginTop:50,
 
-    margin: 8,
+    margin: 20,
 
   },
       buttonRegister:{
-    margin:20,
+    margin:40,
     alignItems:'center',
+    width:'55%',
+    alignSelf:'center',
     backgroundColor:'#73808f',
     height:45,
    display:'flex',

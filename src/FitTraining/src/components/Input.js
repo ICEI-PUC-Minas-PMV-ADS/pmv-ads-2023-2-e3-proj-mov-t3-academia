@@ -17,6 +17,8 @@ const styles = StyleSheet.create({
     backgroundColor:'#FFF',
     marginBottom: 8,
     margin: 8,
+    marginRight: 20,
+    marginLeft:20,
   },
 });
 

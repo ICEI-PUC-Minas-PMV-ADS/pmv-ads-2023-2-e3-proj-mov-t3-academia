@@ -24,7 +24,7 @@ const BemVindo = ({ navigation }) => {
 
 <Animatable.View delay={600} animation="fadeInUp" style={styles.containerForm}>
 
-<Text style={styles.titulo}>Bem-vindo a Fit Training</Text>
+<Text style={styles.titulo}>Bem-vindo(a) a Fit Training</Text>
 <Text  style={styles.subtitulo}>Monte suas fichas de treino  da maneira que quiser!</Text>
 <Text style={{color:'gray'}}>Faça o login para começar</Text>
       <TouchableOpacity  style={styles.button} title="Começar" onPress={irParaLogin}>
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
     }, 
     subtitulo:{
 fontSize:23,
-marginBottom: 12,
+marginBottom: 5,
     },
 
     containerLogo:{
@@ -79,7 +79,7 @@ borderRadius:50,
 paddingVertical:8,
 width:'60%',
 alignSelf:'center',
-bottom:'17%',
+bottom:'10%',
 alignItems:'center'
     },
 

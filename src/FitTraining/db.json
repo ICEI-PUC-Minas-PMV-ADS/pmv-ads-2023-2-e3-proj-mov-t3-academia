@@ -51,11 +51,11 @@
   ],
   "exerciciosTreinoA": [
     {
-      "nomeExercicio": "teste1",
+      "nomeExercicio": "Supino Inclinado",
       "repeticoes": "12",
       "series": "3",
       "image": "https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/b6cc0a2110c2d1172c2bafa05dacfda720a917af/docs/img/tela%20de%20fundo%20-%20imagem%20do%20exercicio.jpg",
-      "id": 2
+      "id": 3
     }
   ],
   "exerciciosTreinoB": [
