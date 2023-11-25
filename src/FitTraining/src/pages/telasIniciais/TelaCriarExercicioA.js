@@ -145,9 +145,11 @@ const TelaCriarExercicioA = ({ route }) => {
                 <View style={styles.row}>
                     <Text variant="titleLarge" style={styles.textImage}>SELECIONE UMA IMAGEM: </Text>
                     <Button
-                        color='gray'
+                    style={styles.botaoUpload}
+                        backgroundColor='gray'
                         mode='contained'
                         onPress={handleImagePicker}
+                        icon={"file-upload-outline"}
                     >Upload de imagem</Button>
                 </View>
                 <View style={{ marginTop: 20, alignItems: 'center', justifyContent: 'center' }}>
@@ -163,6 +165,7 @@ const TelaCriarExercicioA = ({ route }) => {
                     style={styles.botaoSalvar}
                     onPress={handleSalvar}
                     mode='contained'
+                    icon={"content-save"}
                 >SALVAR</Button>
 
                 {
@@ -173,6 +176,7 @@ const TelaCriarExercicioA = ({ route }) => {
                         style={styles.botaoExcluir}
                         onPress={handleExcluir}
                         mode='contained'
+                        icon={"trash-can-outline"}
                     >EXCLUIR</Button>
                 }
 
@@ -221,17 +225,28 @@ const styles = StyleSheet.create({
     },
     botaoSalvar: {
         marginTop: 50,
-        marginVertical: 10,
+        marginVertical: 5,
         marginHorizontal: 10,
+        backgroundColor:'green',
+        width:'55%',
+        alignSelf:'center'
     },
     botaoExcluir: {
         marginVertical: 10,
         marginHorizontal: 10,
+        backgroundColor:'red',
+        width:'55%',
+        alignSelf:'center',
+       
     },
     botaoIniciar: {
         marginTop: 10,
         marginVertical: 10,
         marginHorizontal: 10,
+    },
+    botaoUpload:{
+        backgroundColor:'#73808f',
+       marginLeft:10
     },
     overlay: {
         flex: 1,
