@@ -1,29 +1,19 @@
-import React from 'react';
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import React, { useCallback } from 'react';
+import { Button } from 'react-native';
 import * as Print from 'expo-print';
+import { shareAsync } from 'expo-sharing';
+
 import dbData from '../../db.json';
-import * as FileSystem from 'expo-file-system';
 
-const PrintDBData = () => {
-  const handlePrint = async () => {
-    const content = generateHTMLContent(dbData.exerciciosTreinoA);
-    const localUri = FileSystem.cacheDirectory + 'exercicio.pdf';
-
+export const ListaParaPdf = () => {
+const handlePrint = useCallback(async () => {
     try {
-      await FileSystem.writeAsStringAsync(localUri, content, {
-        encoding: FileSystem.EncodingType.UTF8,
-      });
+      const exercicios = dbData.exerciciosTreinoA;
 
-      // Abre o arquivo localmente
-      await Print.printAsync({ uri: localUri, name: 'Exercicio.pdf' });
-    } catch (error) {
-      console.error(error);
-    }
-  };
-
-  const generateHTMLContent = (exerciciosTreinoA) => {
-    return `
-      <html>
+      let htmlContent = '<h1>Lista de Exercícios</h1>';
+      exercicios.forEach((exercicio) => {
+        htmlContent += `
+        <html>
         <head>
           <style>
             h1 {
@@ -36,41 +26,25 @@ const PrintDBData = () => {
           </style>
         </head>
         <body>
-          <h1>Lista de exercicios:</h1>
+          
           <ul>
-            ${exerciciosTreinoA.map(
-              (exercicio) => `<li>${exercicio.nomeExercicio}: Repetições - ${exercicio.repeticoes}, Séries - ${exercicio.series}</li>`
-            ).join('')}
-          </ul>
+        <li>${exercicio.nomeExercicio}: ${exercicio.repeticoes} repetições, ${exercicio.series} séries</li>
+        </ul>
         </body>
       </html>
-    `;
-  };
+        `;
+      });
 
-  return (
-    <View style={styles.container}>
-      <TouchableOpacity onPress={handlePrint} style={styles.button}>
-        <Text style={styles.buttonText}>Imprimir</Text>
-      </TouchableOpacity>
-    </View>
-  );
+      // Gere o arquivo PDF
+      const file = await Print.printToFileAsync({ html: htmlContent, base64: false });
+      await shareAsync(file.uri);
+
+      console.log(uri);
+    } catch (error) {
+      console.error('Erro ao gerar o PDF:', error);
+    }
+  }, []);
+
+  return <Button title="Gerar PDF" onPress={handlePrint} />;
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  button: {
-    backgroundColor: 'blue',
-    padding: 10,
-    borderRadius: 5,
-  },
-  buttonText: {
-    color: 'white',
-    fontSize: 16,
-  },
-});
-
-export default PrintDBData;
+    export default ListaParaPdf;
