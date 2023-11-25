@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://lemon-tables-push.loca.lt';
+export const BASE_URL = ' https://empty-cobras-beg.loca.lt';

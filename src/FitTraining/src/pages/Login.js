@@ -58,14 +58,14 @@ const Login = () => {
              style={styles.input}
           value={email}
           onChangeText={(text) => setEmail(text)}
-          left={<TextInput.Icon name="account" />}
+          left={<TextInput.Icon icon="account" />}
         />
         <Input
           label="Senha"
           value={password}
           secureTextEntry
           onChangeText={(text) => setPassword(text)}
-          left={<TextInput.Icon name="key" />}
+          left={<TextInput.Icon icon="key" />}
         />
          <TouchableOpacity
         style={styles.buttonLogin}
@@ -100,11 +100,13 @@ const styles = StyleSheet.create({
     marginBottom: 8,
     marginTop:50,
 
-    margin: 8,
+    margin: 20,
 
   },
     buttonLogin:{
-    margin:20,
+    margin:40,
+    width:'55%',
+    alignSelf:'center',
     alignItems:'center',
     backgroundColor:'#73808f',
     height:45,
