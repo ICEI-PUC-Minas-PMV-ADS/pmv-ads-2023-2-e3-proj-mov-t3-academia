@@ -148,9 +148,11 @@ const TelaCriarExercicioB = ({ route }) => {
                 <View style={styles.row}>
                     <Text variant="titleLarge" style={styles.textImage}>SELECIONE UMA IMAGEM: </Text>
                     <Button
+                    style={styles.botaoUpload}
                         color='gray'
                         mode='contained'
                         onPress={handleImagePicker}
+                        icon={"file-upload-outline"}
                     >Upload de imagem</Button>
                 </View>
                 <View style={{ marginTop: 20, alignItems: 'center', justifyContent: 'center' }}>
@@ -166,6 +168,7 @@ const TelaCriarExercicioB = ({ route }) => {
                     style={styles.botaoSalvar}
                     onPress={handleSalvar}
                     mode='contained'
+                    icon={"content-save"}
                 >SALVAR</Button>
 
                 {
@@ -176,6 +179,7 @@ const TelaCriarExercicioB = ({ route }) => {
                         style={styles.botaoExcluir}
                         onPress={handleExcluir}
                         mode='contained'
+                        icon={"trash-can-outline"}
                     >EXCLUIR</Button>
                 }
 
@@ -224,12 +228,22 @@ const styles = StyleSheet.create({
     },
     botaoSalvar: {
         marginTop: 50,
-        marginVertical: 10,
+        marginVertical: 5,
         marginHorizontal: 10,
+        backgroundColor:'green',
+        width:'55%',
+        alignSelf:'center'
     },
     botaoExcluir: {
         marginVertical: 10,
         marginHorizontal: 10,
+        backgroundColor:'red',
+        width:'55%',
+        alignSelf:'center',
+    },
+    botaoUpload:{
+        backgroundColor:'#73808f',
+       marginLeft:10
     },
 
 });
