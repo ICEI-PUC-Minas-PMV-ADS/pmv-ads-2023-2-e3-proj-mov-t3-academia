@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 import { View, Text, Image, TextInput, TouchableOpacity, Button } from 'react-native';
 import * as ImagePicker from 'expo-image-picker';
 import { MaterialIcons } from '@expo/vector-icons';
+import { useUser } from '../contexts/UserContext'
 import { useNavigation } from '@react-navigation/native';
 
 const Profile = ({navigation}) => {
-  const [userName, setUserName] = useState('Usuário Padrão');
+  const { name } = useUser();
+  const [userName, setUserName] = useState(name);
   const [userImage, setUserImage] = useState();
   const [newUserName, setNewUserName] = useState('');
 

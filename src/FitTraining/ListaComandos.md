@@ -12,6 +12,7 @@ npm install @react-navigation/drawer
 npm install react-native-paper
 npm install expo-print
 npm expo install expo-sharing
+npm install react-native-animatable --save
 
 json-server-auth db.json //não é download 
 lt --port 3000 //não é download 
