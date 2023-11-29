@@ -42,8 +42,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Arnaldo Santos  | Ter um único aplicativo para montar fichas de treino elaboradas e compartilhar suas fichas com seus seguidores. | Expandir o número de alunos que podem querer tê-lo como coach e compartilhar suas fichas e métodos com interessados |
 |Carlos Gomes  | Facilitar o trabalho necessário para organizar fichas | Para facilitar sua adesão nos treinos|
 |Carlos Gomes  | Conseguir compreender facilmente quais exercícios deverá fazer e seus métodos de execução | Para não ter que procurar por muito tempo sempre que encontrar um exercício que não conheça e nem se lesionar nos treinos. |
-|Fernanda Soares | Criar fichas de treino para todos os alunos matriculados na academia. | Diminuir o trabalho necessário para gerenciar todas as fichas dos alunos.|
-|Fernanda Soares | Ter acesso fácil e prático para qualquer ficha de treino de qualquer aluno a qualquer momento. | Para que se possa fazer atualização e manutenção da rotina de treino sem muito trabalho. |
+|Fernanda Soares | Ver o número de sets concluídos no aplicativo. | Para não passar para os seus alunos o número de sets errado.|
+|Fernanda Soares | Ter um cronômetro de tempo. | Para que possar marcar o tempo de descanso dos seus alunos entre suas séries. |
 
 
 
@@ -106,11 +106,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-001| A aplicação deve permitir que o usuário monte sua própria ficha de treino. | ALTA | 
 |RF-002| A aplicação deve permitir que o usuário registre-se e faça login.   | ALTA |
 |RF-003| A aplicação deve permitir que o usuário compartilhe sua ficha de treino com outros usuários.   | ALTA |
-|RF-004| A aplicação deve permitir ao usuário ver as fichas montadas pelo seu personal trainer.   | ALTA |
-|RF-005| A aplicação deve mostrar um gif de como se executa os exercícios nas fichas de treino.   | MÉDIA |
-|RF-006| A aplicação deve ter a opção para o personal trainer criar uma ficha de treino para todos os alunos da academia.   | ALTA |
-|RF-007| A aplicação deve apresentar para o personal trainer a ficha de treino de todos seus alunos.   | ALTA |
-|RF-008| A aplicação deve apresentar para o personal trainer a opção de editar a ficha de treino de seus alunos.   | ALTA |
+|RF-004| A aplicação deve permitir ao usuário editar sua própria ficha.   | ALTA |
+|RF-005| A aplicação deve permitir ao usuário adicionar imagem ou gif em seu exercício.   | MÉDIA |
+|RF-006| A aplicação deve ter a opção de um cronômetro para contar o tempo de descanso.   | ALTA |
+|RF-007| A aplicação deve ter um marcador de sets dos exercícios concluídos.   | MÉDIA |
+
 
 
 ### Requisitos não Funcionais
