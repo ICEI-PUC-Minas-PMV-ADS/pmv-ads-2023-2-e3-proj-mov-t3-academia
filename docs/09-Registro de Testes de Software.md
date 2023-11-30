@@ -15,7 +15,7 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 ## CT 02.1 - Cadastro de Perfil
 ### Teste: A aplicação deve permitir que o usuário registre-se.
-<div align="center"><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/blob/main/docs/img/cadastro.jpg"></div>
+<div align="center"><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/blob/main/docs/img/cadastro.png"></div>
 
 
 ## CT 02.2 - Falha no Cadastro de Perfil
