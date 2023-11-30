@@ -22,7 +22,10 @@ A tabela a seguir foi preenchida considerando os artefatos desenvolvidos:
 
 |ID        | Descrição do Requisito  | Altefato(s) produzido(s) |
 |----------|-----------------------------------------|----|
-|RF-003    | A aplicação deve permitir que o usuário compartilhe sua ficha de treino com outros usuários.| Em construção | 
+|RF-003    | A aplicação deve permitir que o usuário compartilhe sua ficha de treino com outros usuários.| ***/Pages/ListaParaPdf.js*** | 
+
+<div align="center"><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/blob/main/docs/img/compartilhar%20ficha%201.png"/>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/blob/main/docs/img/compartilhar%20ficha%202.png"/></div>
 
 <br/>
 
