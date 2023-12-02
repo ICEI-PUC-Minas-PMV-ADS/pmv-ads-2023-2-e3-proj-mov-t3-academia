@@ -1,6 +1,6 @@
 import * as React from "react";
 import { BottomNavigation, Text, List } from "react-native-paper";
-import Ionicons from '@expo/vector-icons/Ionicons';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 import TelaInicial from "../pages/telasIniciais/TelaInicial";
 import TreinoB from "../pages/telasIniciais/TreinoB";

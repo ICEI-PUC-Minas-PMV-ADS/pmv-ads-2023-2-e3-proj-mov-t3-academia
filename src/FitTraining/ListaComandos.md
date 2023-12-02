@@ -13,6 +13,7 @@ npm install react-native-paper
 npm install expo-print
 npm expo install expo-sharing
 npm install react-native-animatable --save
+npm install --save react-native-vector-icons
 
 json-server-auth db.json //não é download 
 lt --port 3000 //não é download 

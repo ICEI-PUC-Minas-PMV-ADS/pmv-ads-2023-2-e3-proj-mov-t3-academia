@@ -1,12 +1,13 @@
 import React from 'react';
-import { View, Text, Image } from 'react-native';
-import { DrawerItemList, createDrawerNavigator } from '@react-navigation/drawer';
+import { View, Text, Image, Button } from 'react-native';
+import { DrawerItemList, createDrawerNavigator, DrawerItem } from '@react-navigation/drawer';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { NavigationContainer } from '@react-navigation/native';
+import { AsyncStorage } from '@react-native-async-storage/async-storage';
+import { TouchableOpacity } from 'react-native-gesture-handler';
 import { useUser } from '../contexts/UserContext'
-
 import {
-  SimpleLineIcons,
+    SimpleLineIcons,
 } from "@expo/vector-icons";
 
 import StackNavigator from '../navigations/StackNavigator';
@@ -14,10 +15,16 @@ import { userImage } from '../pages/Profile'
 import MenuInicialTreinos from '../components/MenuInicialTreinos';
 import Profile from '../pages/Profile';
 import ListaParaPdf from '../pages/ListaParaPdf';
+import Login, { login } from '../pages/Login';
+import BemVindo from '../pages/telasIniciais/BemVindo';
+
+import Logout from '../pages/Logout';
+
+
 
 const Drawer = createDrawerNavigator();
 
-const DrawerNavigator = ({ route }) => {
+const DrawerNavigator = ({ route, navigation }) => {
 
     const { name } = useUser();
 
@@ -25,8 +32,9 @@ const DrawerNavigator = ({ route }) => {
     <Drawer.Navigator
         drawerContent={
             (props) => {
-        
+               
                 return (
+                    
                     <SafeAreaView>
                         <View style={{
                             height: 240,
@@ -38,6 +46,7 @@ const DrawerNavigator = ({ route }) => {
                             paddingTop: 15
                         }}
                         >
+        
                             <Image
                               source={{
                                 uri: 'https://static.vecteezy.com/system/resources/thumbnails/020/765/399/small/default-profile-account-unknown-icon-black-silhouette-free-vector.jpg' }}
@@ -70,6 +79,8 @@ const DrawerNavigator = ({ route }) => {
                              >Aluno
                             </Text>
                         </View>
+
+                        
                         <DrawerItemList {...props}/>
                     </SafeAreaView>
                 )
@@ -131,7 +142,29 @@ const DrawerNavigator = ({ route }) => {
                 }}
                 component={ListaParaPdf}
             />
+            
+            <Drawer.Screen 
+                name='Logout'
+                options={{
+                    drawerLabel: "Sair",
+                    title: "Sair",
+                    drawerIcon: () => (
+                        <SimpleLineIcons name="logout" size={20} color="#fff"/>
+                    )
+                }}
+                component={Logout}
+            />
         
+            <Drawer.Screen
+            name="Login"
+            component={Login}
+            options={{
+                drawerItemStyle: { height: 0 },
+                drawerLabel: "Login",
+                 headerShown: false, 
+            }}
+            />
+
             </Drawer.Navigator>
 
     )

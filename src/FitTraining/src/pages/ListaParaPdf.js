@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react';
 import { Button, View } from 'react-native';
-import * as Print from 'expo-print';
+import { printToFileAsync } from 'expo-print';
 import { shareAsync } from 'expo-sharing';
 
 import dbData from '../../db.json';
@@ -35,7 +35,7 @@ const handlePrint = useCallback(async () => {
         `;
       });
 
-      const file = await Print.printToFileAsync({ html: htmlContent, base64: false });
+      const file = await printToFileAsync({ html: htmlContent, base64: false });
       await shareAsync(file.uri);
 
       console.log(uri);
@@ -74,7 +74,7 @@ const handlePrint = useCallback(async () => {
         `;
       });
 
-      const file = await Print.printToFileAsync({ html: htmlContent, base64: false });
+      const file = await printToFileAsync({ html: htmlContent, base64: false });
       await shareAsync(file.uri);
 
       console.log(uri);
@@ -113,10 +113,9 @@ const handlePrint = useCallback(async () => {
         `;
       });
 
-      const file = await Print.printToFileAsync({ html: htmlContent, base64: false });
+      const file = await printToFileAsync({ html: htmlContent, base64: false });
       await shareAsync(file.uri);
 
-      console.log(uri);
     } catch (error) {
       console.error('Erro ao gerar o PDF:', error);
     }
@@ -124,9 +123,9 @@ const handlePrint = useCallback(async () => {
 
   return ( 
     <View style={{alignItems:'center', alignContent:'center', flex:1, justifyContent:'space-evenly',}}>
-  <Button color="#5660A7" title="Gerar PDF (ficha A)" onPress={handlePrint}/>
-  <Button color="#5660A7" title="Gerar PDF (ficha B)" onPress={handlePrintb}/>
-  <Button color="#5660A7" title="Gerar PDF (ficha C)" onPress={handlePrintc}/>
+  <Button color="#73808f" title="Gerar PDF (ficha A)" onPress={handlePrint}/>
+  <Button color="#73808f" title="Gerar PDF (ficha B)" onPress={handlePrintb}/>
+  <Button color="#73808f" title="Gerar PDF (ficha C)" onPress={handlePrintc}/>
   </View>
   )
           

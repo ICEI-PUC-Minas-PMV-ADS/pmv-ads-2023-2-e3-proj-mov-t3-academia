@@ -9,6 +9,8 @@ import TreinoB from '../pages/telasIniciais/TreinoB';
 import TreinoC from '../pages/telasIniciais/TreinoC';
 import Profile from '../pages/Profile';
 import IniciarTreino from '../pages/telasIniciais/IniciarTreino';
+import BemVindo from '../pages/telasIniciais/BemVindo';
+import Login from '../pages/Login';
 const Stack = createNativeStackNavigator();
 
 const StackNavigator = () => {
@@ -70,6 +72,22 @@ const StackNavigator = () => {
           header: () => null,
         }}
       />
+
+        <Stack.Screen
+        name="BemVindo"
+        component={BemVindo}
+        options={{
+          header: () => null,
+        }}
+      />
+
+        <Stack.Screen
+        name="Login"
+        component={Login}
+        options={{
+          header: () => null,
+        }}
+      />    
 
     </Stack.Navigator>
   );

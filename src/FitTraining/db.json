@@ -47,47 +47,80 @@
       "password": "$2a$10$3qIphkMONp834uLxMT6y9.yt460Vsj8Win0y/gTkmpZM14u8V3cHq",
       "name": "teste",
       "id": 8
+    },
+    {
+      "email": "thiago@gmail.com",
+      "password": "$2a$10$3zSd7qBCJwws0UMMtG4YKenvPAjiO0AcPsbhqjf39iTrZgJrHTasi",
+      "name": "thiago",
+      "id": 9
+    },
+    {
+      "email": "joao@gmail.com",
+      "password": "$2a$10$Lg5uvTHDeBs4rdR/Br.WsONq0fAKYcg9Fi9EeNQUSZRYcfxk2856a",
+      "name": "Joao",
+      "id": 10
+    },
+    {
+      "email": "teste@testei",
+      "password": "$2a$10$aXGysxmv8HA6jPchijgKHOh8Ke2KGbW0.07wk61bSSvo4qbKZVZ7y",
+      "name": "Teste",
+      "id": 11
+    },
+    {
+      "email": "pedro@gmail.com",
+      "password": "$2a$10$TIQx32oTaGEzRoe5jVO0A.K9ol0gTeykkO/fEzeZNts3likXXh9KG",
+      "name": "Pedro",
+      "id": 12
+    },
+    {
+      "email": "aa@gmail.com",
+      "password": "$2a$10$VkSGvjWQyIkB5eS2q8jveup0DvGrMLGsHEX.nvPlskChlhkLy/Bvm",
+      "name": "Aa",
+      "id": 13
+    },
+    {
+      "email": "bb@gmail.com",
+      "password": "$2a$10$SnWGf3jpVJDtbpeyRUE5EeBRtEUtoyooooDus/1FYdHb4vjART5d6",
+      "name": "Bb",
+      "id": 14
+    },
+    {
+      "email": "jadir@gmail.com",
+      "password": "$2a$10$pVcVLw55KNSw8HrZ0YH2n.8AERJfbYabD6GO3NsRWV1gJ3BH3ACr2",
+      "name": "Jadir",
+      "id": 15
     }
   ],
   "exerciciosTreinoA": [
     {
-      "nomeExercicio": "Supino Inclinado",
-      "repeticoes": "12",
+      "nomeExercicio": "Supino",
+      "repeticoes": "11",
+      "series": "4",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fsnack-a9b0cc80-52de-4bcc-88f7-87de35517eb2-6c2679e0-0eff-43d4-9cc1-66b7886a9a3a/ImagePicker/0d3f0989-b9f8-4142-a573-c9dcdad11775.gif",
+      "id": 1
+    },
+    {
+      "nomeExercicio": "Supino inclinado",
+      "repeticoes": "10",
       "series": "3",
-      "image": "https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/b6cc0a2110c2d1172c2bafa05dacfda720a917af/docs/img/tela%20de%20fundo%20-%20imagem%20do%20exercicio.jpg",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fsnack-a9b0cc80-52de-4bcc-88f7-87de35517eb2-6c2679e0-0eff-43d4-9cc1-66b7886a9a3a/ImagePicker/e7ef33e7-772b-4479-8304-6d0a23b39551.gif",
+      "id": 2
+    },
+    {
+      "nomeExercicio": "Biceps halter",
+      "repeticoes": "12",
+      "series": "1",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fsnack-a9b0cc80-52de-4bcc-88f7-87de35517eb2-6c2679e0-0eff-43d4-9cc1-66b7886a9a3a/ImagePicker/8fe8a5aa-2e2b-468f-ad58-96f562fb2bc2.gif",
       "id": 3
     },
     {
-      "nomeExercicio": "teste",
+      "nomeExercicio": "Desenvolvimento ",
       "repeticoes": "11",
-      "series": "1",
-      "image": "https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/b6cc0a2110c2d1172c2bafa05dacfda720a917af/docs/img/tela%20de%20fundo%20-%20imagem%20do%20exercicio.jpg",
+      "series": "2",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fsnack-a9b0cc80-52de-4bcc-88f7-87de35517eb2-6c2679e0-0eff-43d4-9cc1-66b7886a9a3a/ImagePicker/17c3e8a8-440b-47f7-97b1-23f13a86ef38.gif",
       "id": 4
-    },
-    {
-      "nomeExercicio": "teste",
-      "repeticoes": "11",
-      "series": "1",
-      "image": "https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia/b6cc0a2110c2d1172c2bafa05dacfda720a917af/docs/img/tela%20de%20fundo%20-%20imagem%20do%20exercicio.jpg",
-      "id": 5
     }
   ],
-  "exerciciosTreinoB": [
-    {
-      "nomeExercicioB": "Crucifixo Invertido",
-      "repeticoesB": "12",
-      "seriesB": "3",
-      "imageB": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fsnack-a9b0cc80-52de-4bcc-88f7-87de35517eb2-1c9b37c9-8aa9-464b-b346-af00c3e1e00a/ImagePicker/dac05145-190d-4422-98cf-02f2756f5ff4.gif",
-      "id": 1
-    }
-  ],
-  "exerciciosTreinoC": [
-    {
-      "nomeExercicioC": "Supino Reto",
-      "repeticoesC": "12",
-      "seriesC": "3",
-      "imageC": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fsnack-a9b0cc80-52de-4bcc-88f7-87de35517eb2-1c9b37c9-8aa9-464b-b346-af00c3e1e00a/ImagePicker/c67fc661-7168-40f9-a61e-45369ba308bf.gif",
-      "id": 1
-    }
-  ]
+  "exerciciosTreinoB": [],
+  "exerciciosTreinoC": []
 }

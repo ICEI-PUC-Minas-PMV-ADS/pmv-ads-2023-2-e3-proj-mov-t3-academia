@@ -40,6 +40,7 @@ const Login = () => {
     
   }
 
+  
   return (
     <Container>
 
@@ -91,7 +92,6 @@ const styles = StyleSheet.create({
 
   header: {
     alignItems: 'center',
-    
     
      backgroundColor:'#c0ccda',
   },
