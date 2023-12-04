@@ -91,36 +91,7 @@
       "id": 15
     }
   ],
-  "exerciciosTreinoA": [
-    {
-      "nomeExercicio": "Supino",
-      "repeticoes": "11",
-      "series": "4",
-      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fsnack-a9b0cc80-52de-4bcc-88f7-87de35517eb2-6c2679e0-0eff-43d4-9cc1-66b7886a9a3a/ImagePicker/0d3f0989-b9f8-4142-a573-c9dcdad11775.gif",
-      "id": 1
-    },
-    {
-      "nomeExercicio": "Supino inclinado",
-      "repeticoes": "10",
-      "series": "3",
-      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fsnack-a9b0cc80-52de-4bcc-88f7-87de35517eb2-6c2679e0-0eff-43d4-9cc1-66b7886a9a3a/ImagePicker/e7ef33e7-772b-4479-8304-6d0a23b39551.gif",
-      "id": 2
-    },
-    {
-      "nomeExercicio": "Biceps halter",
-      "repeticoes": "12",
-      "series": "1",
-      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fsnack-a9b0cc80-52de-4bcc-88f7-87de35517eb2-6c2679e0-0eff-43d4-9cc1-66b7886a9a3a/ImagePicker/8fe8a5aa-2e2b-468f-ad58-96f562fb2bc2.gif",
-      "id": 3
-    },
-    {
-      "nomeExercicio": "Desenvolvimento ",
-      "repeticoes": "11",
-      "series": "2",
-      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fsnack-a9b0cc80-52de-4bcc-88f7-87de35517eb2-6c2679e0-0eff-43d4-9cc1-66b7886a9a3a/ImagePicker/17c3e8a8-440b-47f7-97b1-23f13a86ef38.gif",
-      "id": 4
-    }
-  ],
+  "exerciciosTreinoA": [],
   "exerciciosTreinoB": [],
   "exerciciosTreinoC": []
 }
