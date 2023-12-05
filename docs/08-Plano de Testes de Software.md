@@ -53,7 +53,7 @@
 |:---:	|:---:	|
 |Requisito Associado 	| RF-003	A aplicação deve permitir que o usuário compartilhe sua ficha de treino com outros usuários. |
 |Objetivo do Teste 	| Verificar se o usuário consegue compartilhar sua ficha de treino com outros usuários.|
-|Passos 	| 1) Acessar a aplicação; <br> 2) Visualizar a página e clicar em "Adicionar Adicionar ficha de treino"; <br> 3) Preencher os campos obrigatórios (Exercício, Repetições e Séries); <br> 4) Clicar em "Adicionar Ficha de treino"; <br> 5) Clicar em "Confirmar"; 6) Clicar no botão de compartilhar a ficha de treino.|
+|Passos 	| 1) Acessar a aplicação; <br> 2) Visualizar a página e clicar em "Adicionar Adicionar ficha de treino"; <br> 3) Preencher os campos obrigatórios (Exercício, Repetições e Séries); <br> 4) Clicar em "Compartilhar Ficha de treino"; <br> 5) Escolher a ficha para ser imprimida; 6) Clicar no botão de compartilhar a ficha de treino.|
 |Critério de Êxito | - A ficha de treino deve ser compartilhada.  |
 <br>
 
@@ -65,29 +65,12 @@
 |Critério de Falha | A aplicação não cumpre o critério de êxito que exige o compartilhamento bem-sucedido da ficha de treino.|
  <br>
 
- 
-|**Caso de Teste** 	| **CT-04 – Ver ficha de treino montada pelo personal trainer** 	|
-|:---:	|:---:	|
-|Requisito Associado 	| RF-004	A aplicação deve permitir ao usuário ver as fichas montadas pelo seu personal trainer. |
-|Objetivo do Teste 	| Verificar se o usuário consegue ver a ficha de treino montada pelo seu personal trainer|
-|Passos 	| 1) Acessar a aplicação; <br> 2) Visualizar a página e clicar em "Minha fihca de treino".|
-|Critério de Êxito | - A ficha de treino deve ser vista pelo usuário.  |
-<br>
-
-
-|**Caso de Teste 04.1** | **CT-04.1 - Falha na Visualização**|
-|:---:	|:---:	|
-|Caso de Teste | CT-04 – Ver ficha de treino montada pelo personal trainer|
-|Cenário de Erro | Ao acessar a aplicação e clicar em "Minha ficha de treino", a ficha de treino montada pelo personal trainer não é exibida.|
-|Critério de Falha | A aplicação não cumpre o critério de êxito que exige a visualização da ficha de treino pelo usuário.|
-<br>
-
 
 |**Caso de Teste** 	| **CT-05 – Gif dos exercícios** 	|
 |:---:	|:---:	|
 |Requisito Associado 	|RF-005	A aplicação deve mostrar um gif de como se executa os exercícios nas fichas de treino. |
 |Objetivo do Teste 	| Verificar se o usuário consegue ver os gifs que representam a execução do exercício|
-|Passos 	| 1) Acessar a aplicação; <br> 2) Visualizar a página e clicar em "MInha ficha de treino"; <br> 3) Clicar nos exercícios.|
+|Passos 	| 1) Acessar a aplicação; <br> 2) Visualizar a página e clicar em "MInha ficha de treino"; <br> 3) Escolher o gif em sua galeria.|
 |Critério de Êxito | - Deve ser exibido o gif de cada exercício |
 <br>
 
@@ -97,23 +80,6 @@
 |Caso de Teste | CT-05 – Gif dos exercícios|
 |Cenário de Erro | Ao acessar a aplicação, os gifs de execução dos exercícios não são exibidos quando o usuário clica nos exercícios da ficha de treino.|
 |Critério de Falha | A aplicação não cumpre o critério de êxito que exige a exibição dos gifs de execução dos exercícios.|
-<br>
-
-
-| Caso de Teste       | CT-06 – Opção de criar ficha de treino para todos alunos da academia      |
-|---------------------|-----------------------------------------------------------------------------------|
-| Requisito Associado | RF-006	A aplicação deve ter a opção para o personal trainer criar uma ficha de treino para todos os alunos da academia.|
-| Objetivo do Teste   | Verificar se a aplicação é capaz de criar uma ficha de treino geral para todos os alunos da academia. |
-|Passos 	| 1) Acessar a aplicação; <br> 2) Visualizar a página e clicar em "Adicionar ficha de treino para todos alunos"; <br> 3) Preencher os campos obrigatórios (Exercício, Repetições e Séries); <br> 4) Clicar em "Adicionar Ficha de treino"; <br> 5) Clicar em "Confirmar".
-| Critério de Êxito   | - A aplicação deve ser capaz de gerar a ficha de treino para todos alunos da academia. |
-<br>
-
-
-|**Caso de Teste** | **CT-06.1 - Falha na Geração da Ficha Geral**|
-|:---:	|:---:	|
-|Caso de Teste | CT-06 – Opção de criar ficha de treino para todos alunos da academia|
-|Cenário de Erro | Após preencher os campos obrigatórios e clicar em "Adicionar Ficha de treino para todos alunos", a aplicação não gera a ficha de treino geral para todos os alunos da academia.|
-|Critério de Falha| A aplicação não cumpre o critério de êxito que exige a geração da ficha de treino geral.|
 <br>
 
 
