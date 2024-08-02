@@ -1,0 +1,24 @@
+message: Please cite this software using these metadata.
+title: FitTraining
+authors:
+  - family-names: de Sousa Gonçalves
+    given-names: Jadir
+  - family-names: Costa Junior
+    given-names: Joanes
+  - family-names: Silva Coutinho
+    given-names: Luisa
+  - family-names: Fonseca Pereira
+    given-names: Ricardo
+  - family-names: Henrique de Oliveira Souza
+    given-names: Thiago
+  - family-names: Ruas Toledo
+    given-names: Diego
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Curcino de Lima
+    given-names: Mateus
+keywords:
+  - FitTraining
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t3-academia
+version: 1.0.0
+date-released: 2023-07-01
